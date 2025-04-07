@@ -1050,6 +1050,7 @@ llm = GroqLLM()
 
 @chatbot_bp.route("/ask", methods=["POST"])
 @cross_origin(origin="http://localhost:3000")
+# @cross_origin(origins="https://foundry-chatbot.vercel.app")
 def ask_bot():
     data = request.get_json()
     if not data or "query" not in data:
@@ -1065,12 +1066,21 @@ def ask_bot():
         "rejection", "chart", "fishbone", "defect", "summary", "blow hole",
         "inclusion", "mould", "trend", "data", "compare", "table", "diagram",
         "analyze", "analytics", "analysis", "comparison", "comparing", "plot", "plots",
-        "charts", "all charts", "rejection_analysis","run"])
+        "charts", "all charts", "rejection_analysis","run", "daily","rejection percentage" ,"show"])
 
     if not is_technical:
-        response = llm.ask(user_query)
+        if "sop" in user_query.lower() or "as per" in user_query.lower():
+            response = llm.ask_with_rag(user_query)
+        else:
+            response = llm.ask(user_query)
+            
         memory.save_context({"input": user_query}, {"output": response})
+        
         return jsonify({"response": {"messages": [response]}})
+
+        # response = llm.ask(user_query)
+        # memory.save_context({"input": user_query}, {"output": response})
+        # return jsonify({"response": {"messages": [response]}})
 
     user_query = llm.clarify_user_query(user_query)
     print("Clarified Query:", user_query)

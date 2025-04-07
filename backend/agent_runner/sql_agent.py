@@ -74,7 +74,7 @@ class SQLAgentWrapper:
             engine = create_engine(mysql_url, connect_args={"connect_timeout": 5})
             db = SQLDatabase(engine)
 
-            llm = ChatGroq(model="llama3-8b-8192", temperature=0.2, max_tokens=300, timeout=10)
+            llm = ChatGroq(model="llama-3.2-90b-vision-preview", temperature=0.2, max_tokens=300, timeout=10)
 
             schema_description = """
 You are an intelligent assistant for a Foundry Analytics chatbot. Your job is to answer analytical queries using the following MySQL database tables from the `foundry_db`:
@@ -86,7 +86,7 @@ You are an intelligent assistant for a Foundry Analytics chatbot. Your job is to
 1. `rejection_analysis`
    - Stores **monthly rejection statistics** by defect and foundry.
    - Columns:
-     - `foundry_name`: Name of the foundry (e.g., 'Munjal')
+     - `foundry_name`: Munjal
      - `defect_type`: Type of defect (e.g., 'Blow Hole')
      - `month_year`: Month-Year in string format (e.g., 'Jan-2025')
      - `rejection_percentage`: Rejection percentage for that month (FLOAT)
@@ -127,6 +127,11 @@ You are an intelligent assistant for a Foundry Analytics chatbot. Your job is to
 - 🧠 **Special Case:**
   - For daily trend queries or queries involving `shift`, `date`, or `group_name`, use `daily_rejection_analysis` instead of `rejection_analysis`.
 
+  - Do not Convert the rejection percentage to percentage by multiplying with 100 beacuse it is alreadyin that format.
+
+  - If Daily keyword is present the search the thing in daily_rejection_analysis table.
+  - If Monthly keyword is present the search the thing in rejection_analysis table.
+ 
 ---
 
 📤 **Response Format Instructions**

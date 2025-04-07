@@ -58,7 +58,7 @@
             "volatile_matter"
         ]
     },
-    "defect_for_analysis": "Blow Hole",
+    "defect_for_analysis": "Broken Mould",
     "defect_mapping": {
         "Blow Hole": [
             "blow_hole_foundry_stage",
@@ -92,12 +92,12 @@
     "total_produced_qty": "total_quantity_produced",
     "data_selection": {
         "reference_period": [
-            "2025-01-01",
+            "2025-01-02",
             "2025-01-31"
         ],
         "comparison_period": [
-            "2025-01-01",
-            "2025-01-31"
+            "2025-03-01",
+            "2025-03-30"
         ]
     },
     "data_sufficiency_check": {
@@ -261,5 +261,5 @@
             "title_fontsize": 15
         }
     },
-    "top_parameter": "compactibility"
+    "top_parameter": "gcs"
 }

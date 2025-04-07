@@ -36035,3 +36035,1059 @@
 2025-04-07 11:14:50,265 - INFO - 127.0.0.1 - - [07/Apr/2025 11:14:50] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
 2025-04-07 11:14:50,280 - WARNING - Unknown option passed to Flask-CORS: origin
 2025-04-07 11:14:51,143 - INFO - 127.0.0.1 - - [07/Apr/2025 11:14:51] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:20:12,452 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:20:12,475 - INFO - 127.0.0.1 - - [07/Apr/2025 12:20:12] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:20:12,488 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:20:13,008 - INFO - 127.0.0.1 - - [07/Apr/2025 12:20:13] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:21:53,087 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\voice.py', reloading
+2025-04-07 12:21:54,716 - INFO -  * Restarting with stat
+2025-04-07 12:22:14,823 - WARNING -  * Debugger is active!
+2025-04-07 12:22:14,839 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 12:22:15,116 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:22:15,117 - INFO - 127.0.0.1 - - [07/Apr/2025 12:22:15] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:22:15,123 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:22:15,512 - INFO - 127.0.0.1 - - [07/Apr/2025 12:22:15] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:24:25,937 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 12:24:26,359 - INFO -  * Restarting with stat
+2025-04-07 12:24:42,066 - WARNING -  * Debugger is active!
+2025-04-07 12:24:42,081 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 12:24:42,401 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:24:42,403 - INFO - 127.0.0.1 - - [07/Apr/2025 12:24:42] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:24:42,412 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:24:42,875 - INFO - 127.0.0.1 - - [07/Apr/2025 12:24:42] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:26:40,183 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:26:40,183 - INFO - 127.0.0.1 - - [07/Apr/2025 12:26:40] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:26:40,192 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:26:40,860 - INFO - 127.0.0.1 - - [07/Apr/2025 12:26:40] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:47:55,380 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:47:55,391 - INFO - 127.0.0.1 - - [07/Apr/2025 12:47:55] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:48:04,395 - INFO - 127.0.0.1 - - [07/Apr/2025 12:48:04] "[31m[1mGET /chatbot/ask HTTP/1.1[0m" 405 -
+2025-04-07 12:48:04,453 - INFO - 127.0.0.1 - - [07/Apr/2025 12:48:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 12:48:09,448 - INFO - 127.0.0.1 - - [07/Apr/2025 12:48:09] "[31m[1mGET /chatbot/ask HTTP/1.1[0m" 405 -
+2025-04-07 12:48:42,296 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 12:48:43,935 - INFO -  * Restarting with stat
+2025-04-07 12:49:00,482 - WARNING -  * Debugger is active!
+2025-04-07 12:49:00,497 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 12:49:02,012 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 12:49:02,330 - INFO -  * Restarting with stat
+2025-04-07 12:49:16,942 - WARNING -  * Debugger is active!
+2025-04-07 12:49:16,965 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 12:49:40,034 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 12:49:40,407 - INFO -  * Restarting with stat
+2025-04-07 12:50:14,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 12:50:14,385 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 12:50:14,387 - INFO -  * Restarting with stat
+2025-04-07 12:50:31,991 - WARNING -  * Debugger is active!
+2025-04-07 12:50:32,009 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 12:50:32,249 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:50:32,249 - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:32] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:50:32,265 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:50:32,708 - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:32] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:50:46,980 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:50:46,981 - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:46] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:50:46,991 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:50:48,458 - INFO - 127.0.0.1 - - [07/Apr/2025 12:50:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:51:28,540 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:51:28,542 - INFO - 127.0.0.1 - - [07/Apr/2025 12:51:28] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:51:28,551 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:52:32,607 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:32] "POST /analyze HTTP/1.1" 200 -
+2025-04-07 12:52:32,932 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:32] "GET /results/Munjal/monthly_rejection_rate_Sand%20Inclusion%20defect.jpeg HTTP/1.1" 200 -
+2025-04-07 12:52:33,267 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:33] "GET /results/FBADiagrams/Sand%20Inclusion%20defect.jpg HTTP/1.1" 200 -
+2025-04-07 12:52:33,356 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:33] "GET /results/Munjal/temp/Distribution%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 12:52:33,413 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:33] "GET /results/Munjal/temp/Box%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 12:52:33,511 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:33] "GET /results/Munjal/temp/Correlation%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 12:52:33,632 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:33] "GET /results/Munjal/summary_table_plot_Sand%20Inclusion%20defect.jpeg HTTP/1.1" 200 -
+2025-04-07 12:52:34,143 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:52:34,189 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/Munjal/monthly_rejection_rate_Sand%20Inclusion%20defect.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,190 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/FBADiagrams/Sand%20Inclusion%20defect.jpg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,193 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/Munjal/temp/Distribution%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,196 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/Munjal/temp/Box%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,210 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/Munjal/temp/Correlation%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,210 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/Munjal/monthly_rejection_rate_Sand%20Inclusion%20defect.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,210 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/FBADiagrams/Sand%20Inclusion%20defect.jpg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,214 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/Munjal/temp/Distribution%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,216 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "OPTIONS /results/Munjal/summary_table_plot_Sand%20Inclusion%20defect.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,232 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/Munjal/temp/Box%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,232 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/Munjal/temp/Correlation%20plot%20of%20active_clay.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:34,236 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:34] "GET /results/Munjal/summary_table_plot_Sand%20Inclusion%20defect.jpeg?t=1744010554155 HTTP/1.1" 200 -
+2025-04-07 12:52:57,278 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:52:57,283 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:57] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:52:57,286 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:52:58,036 - INFO - 127.0.0.1 - - [07/Apr/2025 12:52:58] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:05,818 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:05,818 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:05] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:05,827 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:06,313 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:06] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:19,982 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:19,982 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:19,987 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:20,478 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:20] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:42,398 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:42,402 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:42] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:53:42,409 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:53:43,972 - INFO - 127.0.0.1 - - [07/Apr/2025 12:53:43] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:54:00,690 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:54:00,690 - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:00] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:54:00,698 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:54:02,015 - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:02] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:54:48,829 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:54:48,829 - INFO - 127.0.0.1 - - [07/Apr/2025 12:54:48] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:54:48,840 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 12:55:18,916 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:18] "POST /refcomp HTTP/1.1" 200 -
+2025-04-07 12:55:19,049 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/monthly_rejection_rate_Sand%20Fusion.jpeg?t=1744010717 HTTP/1.1" 200 -
+2025-04-07 12:55:19,176 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/FBADiagrams/Sand%20Fusion.jpg HTTP/1.1" 200 -
+2025-04-07 12:55:19,207 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 12:55:19,239 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 12:55:19,271 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 12:55:19,304 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/summary_table_plot_Sand%20Fusion.jpeg HTTP/1.1" 200 -
+2025-04-07 12:55:19,490 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 12:55:19,545 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/Munjal/monthly_rejection_rate_Sand%20Fusion.jpeg?t=1744010717 HTTP/1.1" 200 -
+2025-04-07 12:55:19,545 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/FBADiagrams/Sand%20Fusion.jpg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,545 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,550 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/monthly_rejection_rate_Sand%20Fusion.jpeg?t=1744010717 HTTP/1.1" 200 -
+2025-04-07 12:55:19,550 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/FBADiagrams/Sand%20Fusion.jpg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,554 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,564 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,566 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,566 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,566 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,582 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "OPTIONS /results/Munjal/summary_table_plot_Sand%20Fusion.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 12:55:19,584 - INFO - 127.0.0.1 - - [07/Apr/2025 12:55:19] "GET /results/Munjal/summary_table_plot_Sand%20Fusion.jpeg?t=1744010719512 HTTP/1.1" 200 -
+2025-04-07 13:03:15,674 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:03:15,691 - INFO - 127.0.0.1 - - [07/Apr/2025 13:03:15] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:03:28,628 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:03:28,628 - INFO - 127.0.0.1 - - [07/Apr/2025 13:03:28] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:03:59,445 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 13:04:02,189 - INFO -  * Restarting with stat
+2025-04-07 13:04:42,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 13:04:42,287 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 13:04:42,293 - INFO -  * Restarting with stat
+2025-04-07 13:04:58,247 - WARNING -  * Debugger is active!
+2025-04-07 13:04:58,279 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:04:58,438 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:04:58,438 - INFO - 127.0.0.1 - - [07/Apr/2025 13:04:58] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:05:33,839 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 13:05:34,213 - INFO -  * Restarting with stat
+2025-04-07 13:05:50,563 - WARNING -  * Debugger is active!
+2025-04-07 13:05:50,584 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:05:50,881 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:05:50,882 - INFO - 127.0.0.1 - - [07/Apr/2025 13:05:50] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:05:54,410 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:05:54,410 - INFO - 127.0.0.1 - - [07/Apr/2025 13:05:54] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:06:08,976 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 13:06:09,791 - INFO -  * Restarting with stat
+2025-04-07 13:06:28,473 - WARNING -  * Debugger is active!
+2025-04-07 13:06:28,486 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:06:28,686 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:06:28,686 - INFO - 127.0.0.1 - - [07/Apr/2025 13:06:28] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:06:41,491 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 13:06:41,999 - INFO -  * Restarting with stat
+2025-04-07 13:06:56,472 - WARNING -  * Debugger is active!
+2025-04-07 13:06:56,509 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:06:58,234 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 13:06:58,641 - INFO -  * Restarting with stat
+2025-04-07 13:07:13,502 - WARNING -  * Debugger is active!
+2025-04-07 13:07:13,511 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:07:13,739 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:07:13,739 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:13] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:07:13,739 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:07:13,746 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:13] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:07:13,752 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:07:14,290 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:14] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:07:14,600 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:14] "OPTIONS /speak HTTP/1.1" 200 -
+2025-04-07 13:07:16,108 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:16] "POST /speak HTTP/1.1" 200 -
+2025-04-07 13:07:24,466 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\app.py', reloading
+2025-04-07 13:07:24,826 - INFO -  * Restarting with stat
+2025-04-07 13:07:39,202 - WARNING -  * Debugger is active!
+2025-04-07 13:07:39,230 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:08:12,370 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 13:08:12,727 - INFO -  * Restarting with stat
+2025-04-07 13:08:28,005 - WARNING -  * Debugger is active!
+2025-04-07 13:08:28,018 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:08:31,002 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 13:08:31,433 - INFO -  * Restarting with stat
+2025-04-07 13:08:46,693 - WARNING -  * Debugger is active!
+2025-04-07 13:08:46,727 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:08:58,022 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 13:08:58,350 - INFO -  * Restarting with stat
+2025-04-07 13:09:12,728 - WARNING -  * Debugger is active!
+2025-04-07 13:09:12,735 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 13:09:25,189 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:09:25,190 - INFO - 127.0.0.1 - - [07/Apr/2025 13:09:25] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:09:25,199 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:09:26,111 - INFO - 127.0.0.1 - - [07/Apr/2025 13:09:26] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:09:26,425 - INFO - 127.0.0.1 - - [07/Apr/2025 13:09:26] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:53:19,949 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:19,987 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:20,005 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:20,813 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:20] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:21,142 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:21] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:53:35,013 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:35,016 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:35] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:35,033 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:36,489 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:36] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:36,501 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:36] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:53:43,020 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:43,023 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:43] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:43,031 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:53:45,156 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:45] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:53:45,475 - INFO - 127.0.0.1 - - [07/Apr/2025 13:53:45] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:54:29,790 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:29,793 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:29] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:29,796 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:30,432 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:30] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:30,443 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:30] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:54:40,681 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:40,681 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:40] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:40,687 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:41,446 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:41] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:41,758 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:41] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:54:49,055 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:49,064 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:49] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:49,072 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:54:49,675 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:49] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:54:49,691 - INFO - 127.0.0.1 - - [07/Apr/2025 13:54:49] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:55:08,405 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:55:08,407 - INFO - 127.0.0.1 - - [07/Apr/2025 13:55:08] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:55:08,412 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:55:08,860 - INFO - 127.0.0.1 - - [07/Apr/2025 13:55:08] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:55:09,174 - INFO - 127.0.0.1 - - [07/Apr/2025 13:55:09] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:56:01,960 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:01,960 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:01] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:01,968 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:03,169 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:03] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:03,179 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:03] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:56:10,089 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:10,091 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:10] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:10,099 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:11,623 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:11] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:11,930 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:11] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:56:20,332 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:20,335 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:20] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:20,351 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:21,091 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:21] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:21,103 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:21] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:56:30,549 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:30,552 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:30] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:30,561 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:31,295 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:31] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:31,603 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:31] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:56:46,192 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:46,198 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:46] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:46,201 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:56:46,866 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:46] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:56:46,875 - INFO - 127.0.0.1 - - [07/Apr/2025 13:56:46] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:57:00,675 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:57:00,676 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:00] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:57:00,679 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:57:04,560 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:04] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:57:04,872 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:04] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 13:57:24,700 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:57:24,700 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:24] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:57:24,712 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 13:57:26,678 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:26] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 13:57:26,693 - INFO - 127.0.0.1 - - [07/Apr/2025 13:57:26] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:01:47,122 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:01:47,927 - INFO -  * Restarting with stat
+2025-04-07 14:02:05,954 - WARNING -  * Debugger is active!
+2025-04-07 14:02:05,971 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:02:10,952 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:02:11,306 - INFO -  * Restarting with stat
+2025-04-07 14:02:26,810 - WARNING -  * Debugger is active!
+2025-04-07 14:02:26,817 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:02:28,464 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:02:29,584 - INFO -  * Restarting with stat
+2025-04-07 14:02:46,576 - WARNING -  * Debugger is active!
+2025-04-07 14:02:46,583 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:02:50,351 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:02:50,699 - INFO -  * Restarting with stat
+2025-04-07 14:03:05,240 - WARNING -  * Debugger is active!
+2025-04-07 14:03:05,265 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:03:10,473 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:03:10,859 - INFO -  * Restarting with stat
+2025-04-07 14:03:25,140 - WARNING -  * Debugger is active!
+2025-04-07 14:03:25,153 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:03:43,733 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:03:43,733 - INFO - 127.0.0.1 - - [07/Apr/2025 14:03:43] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:03:43,748 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:03:44,392 - INFO - 127.0.0.1 - - [07/Apr/2025 14:03:44] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:03:44,704 - INFO - 127.0.0.1 - - [07/Apr/2025 14:03:44] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:04:00,687 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:04:00,689 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:00] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:04:00,695 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:04:02,742 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:02] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:04:03,059 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:03] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:04:17,261 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:04:17,264 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:17] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:04:17,269 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:04:19,218 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:19] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:04:19,530 - INFO - 127.0.0.1 - - [07/Apr/2025 14:04:19] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:05:17,265 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:05:17,675 - INFO -  * Restarting with stat
+2025-04-07 14:05:33,372 - WARNING -  * Debugger is active!
+2025-04-07 14:05:33,382 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:05:35,019 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:05:35,421 - INFO -  * Restarting with stat
+2025-04-07 14:05:49,780 - WARNING -  * Debugger is active!
+2025-04-07 14:05:49,787 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:06:15,067 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:06:15,540 - INFO -  * Restarting with stat
+2025-04-07 14:06:30,895 - WARNING -  * Debugger is active!
+2025-04-07 14:06:30,926 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:07:08,532 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:07:09,120 - INFO -  * Restarting with stat
+2025-04-07 14:08:06,960 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 14:08:06,960 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 14:08:06,969 - INFO -  * Restarting with stat
+2025-04-07 14:08:24,637 - WARNING -  * Debugger is active!
+2025-04-07 14:08:24,649 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:08:24,927 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:24,927 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:24] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:24,932 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:25,363 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:25] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:25,690 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:25] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:08:32,829 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:32,829 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:32] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:32,837 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:35,173 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:35] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:35,182 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:35] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:08:47,279 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:47,282 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:47,292 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:08:49,350 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:49] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:08:49,677 - INFO - 127.0.0.1 - - [07/Apr/2025 14:08:49] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:09:07,605 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:09:07,605 - INFO - 127.0.0.1 - - [07/Apr/2025 14:09:07] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:09:07,612 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:09:08,326 - INFO - 127.0.0.1 - - [07/Apr/2025 14:09:08] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:09:08,649 - INFO - 127.0.0.1 - - [07/Apr/2025 14:09:08] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:15:27,287 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:15:27,796 - INFO -  * Restarting with stat
+2025-04-07 14:15:43,687 - WARNING -  * Debugger is active!
+2025-04-07 14:15:43,703 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:16:35,698 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:16:36,184 - INFO -  * Restarting with stat
+2025-04-07 14:16:50,559 - WARNING -  * Debugger is active!
+2025-04-07 14:16:50,581 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:16:54,474 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:16:54,746 - INFO -  * Restarting with stat
+2025-04-07 14:17:09,832 - WARNING -  * Debugger is active!
+2025-04-07 14:17:09,848 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:17:12,575 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:17:13,153 - INFO -  * Restarting with stat
+2025-04-07 14:17:27,692 - WARNING -  * Debugger is active!
+2025-04-07 14:17:27,697 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:17:31,896 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:17:32,449 - INFO -  * Restarting with stat
+2025-04-07 14:17:48,184 - WARNING -  * Debugger is active!
+2025-04-07 14:17:48,202 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:19:41,708 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\rag_service.py', reloading
+2025-04-07 14:19:42,145 - INFO -  * Restarting with stat
+2025-04-07 14:19:57,360 - WARNING -  * Debugger is active!
+2025-04-07 14:19:57,373 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:25:49,055 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:25:49,659 - INFO -  * Restarting with stat
+2025-04-07 14:26:11,917 - WARNING -  * Debugger is active!
+2025-04-07 14:26:11,949 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:26:45,209 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:26:46,207 - INFO -  * Restarting with stat
+2025-04-07 14:27:02,731 - WARNING -  * Debugger is active!
+2025-04-07 14:27:02,737 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:27:05,996 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:27:06,480 - INFO -  * Restarting with stat
+2025-04-07 14:27:28,117 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 14:27:28,117 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 14:27:28,127 - INFO -  * Restarting with stat
+2025-04-07 14:27:43,977 - WARNING -  * Debugger is active!
+2025-04-07 14:27:43,987 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:27:51,650 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 14:27:52,215 - INFO -  * Restarting with stat
+2025-04-07 14:29:46,441 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 14:29:46,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 14:29:46,445 - INFO -  * Restarting with stat
+2025-04-07 14:30:02,195 - WARNING -  * Debugger is active!
+2025-04-07 14:30:02,208 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:30:20,048 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 14:30:20,486 - INFO -  * Restarting with stat
+2025-04-07 14:30:36,863 - WARNING -  * Debugger is active!
+2025-04-07 14:30:36,872 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:30:37,170 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:30:37,171 - INFO - 127.0.0.1 - - [07/Apr/2025 14:30:37] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:30:37,179 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:30:38,718 - INFO - 127.0.0.1 - - [07/Apr/2025 14:30:38] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:30:39,033 - INFO - 127.0.0.1 - - [07/Apr/2025 14:30:39] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:31:13,429 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:31:13,431 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:13] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:31:13,436 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:31:14,136 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:14] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:31:14,147 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:14] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:31:29,483 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:31:29,483 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:29] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:31:29,488 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:31:30,393 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:30] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:31:30,725 - INFO - 127.0.0.1 - - [07/Apr/2025 14:31:30] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:32:52,809 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:32:52,809 - INFO - 127.0.0.1 - - [07/Apr/2025 14:32:52] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:32:52,824 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:32:55,944 - INFO - 127.0.0.1 - - [07/Apr/2025 14:32:55] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:32:56,275 - INFO - 127.0.0.1 - - [07/Apr/2025 14:32:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:34:00,079 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:34:00,082 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:00] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:34:00,086 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:34:02,840 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:02] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:34:03,154 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:03] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:34:47,574 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:34:47,574 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:34:47,574 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:34:53,544 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:53] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:34:53,560 - INFO - 127.0.0.1 - - [07/Apr/2025 14:34:53] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:35:24,025 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:35:24,697 - INFO -  * Restarting with stat
+2025-04-07 14:35:41,258 - WARNING -  * Debugger is active!
+2025-04-07 14:35:41,269 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:39:24,759 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:39:24,763 - INFO - 127.0.0.1 - - [07/Apr/2025 14:39:24] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:39:24,768 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:39:25,980 - INFO - 127.0.0.1 - - [07/Apr/2025 14:39:25] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:39:26,312 - INFO - 127.0.0.1 - - [07/Apr/2025 14:39:26] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:40:06,349 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:40:06,349 - INFO - 127.0.0.1 - - [07/Apr/2025 14:40:06] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:40:06,358 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:40:08,482 - INFO - 127.0.0.1 - - [07/Apr/2025 14:40:08] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:40:08,494 - INFO - 127.0.0.1 - - [07/Apr/2025 14:40:08] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:40:58,239 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:40:58,240 - INFO - 127.0.0.1 - - [07/Apr/2025 14:40:58] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:40:58,246 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:40:59,904 - INFO - 127.0.0.1 - - [07/Apr/2025 14:40:59] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:41:00,227 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:00] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:41:10,406 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:41:10,406 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:10] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:41:10,416 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:41:11,074 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:11] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:41:11,082 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:11] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:41:53,974 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:41:53,981 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:53] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:41:53,990 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:41:54,753 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:54] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:41:55,069 - INFO - 127.0.0.1 - - [07/Apr/2025 14:41:55] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:44:42,914 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:44:44,239 - INFO -  * Restarting with stat
+2025-04-07 14:45:01,889 - WARNING -  * Debugger is active!
+2025-04-07 14:45:01,916 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:47:29,743 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:47:30,371 - INFO -  * Restarting with stat
+2025-04-07 14:47:46,411 - WARNING -  * Debugger is active!
+2025-04-07 14:47:46,418 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:48:07,859 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:48:08,251 - INFO -  * Restarting with stat
+2025-04-07 14:48:23,926 - WARNING -  * Debugger is active!
+2025-04-07 14:48:23,932 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:48:28,266 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:48:28,773 - INFO -  * Restarting with stat
+2025-04-07 14:48:45,850 - WARNING -  * Debugger is active!
+2025-04-07 14:48:45,864 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:48:46,246 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:48:46,246 - INFO - 127.0.0.1 - - [07/Apr/2025 14:48:46] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:48:46,262 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:48:48,040 - INFO - 127.0.0.1 - - [07/Apr/2025 14:48:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:48:48,373 - INFO - 127.0.0.1 - - [07/Apr/2025 14:48:48] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:49:07,066 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:49:07,066 - INFO - 127.0.0.1 - - [07/Apr/2025 14:49:07] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:49:07,076 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:49:09,197 - INFO - 127.0.0.1 - - [07/Apr/2025 14:49:09] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:49:09,526 - INFO - 127.0.0.1 - - [07/Apr/2025 14:49:09] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:49:19,802 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:49:20,137 - INFO -  * Restarting with stat
+2025-04-07 14:49:35,595 - WARNING -  * Debugger is active!
+2025-04-07 14:49:35,628 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:49:39,972 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:49:40,276 - INFO -  * Restarting with stat
+2025-04-07 14:49:55,255 - WARNING -  * Debugger is active!
+2025-04-07 14:49:55,270 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:50:10,916 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:50:10,918 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:10] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:50:10,926 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:50:13,340 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:13] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:50:13,649 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:13] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:50:30,820 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:50:30,822 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:30] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:50:30,829 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:50:32,216 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:32] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:50:32,325 - INFO - 127.0.0.1 - - [07/Apr/2025 14:50:32] "GET /results/FBADiagrams/Broken%20Mould.jpg HTTP/1.1" 200 -
+2025-04-07 14:51:53,069 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:51:53,069 - INFO - 127.0.0.1 - - [07/Apr/2025 14:51:53] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:51:53,076 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:52:03,101 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:03] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 14:52:03,328 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:03] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:52:03,640 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:03] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:52:11,186 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:11] "GET /results/Munjal/reports/Fishbone_Report_Broken_Mould_07-04-2025.pdf HTTP/1.1" 200 -
+2025-04-07 14:52:41,165 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:52:41,167 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:41] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:52:41,181 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:52:42,286 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:42] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:52:42,302 - INFO - 127.0.0.1 - - [07/Apr/2025 14:52:42] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:53:50,274 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:53:51,008 - INFO -  * Restarting with stat
+2025-04-07 14:54:08,352 - WARNING -  * Debugger is active!
+2025-04-07 14:54:08,365 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:54:14,668 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:54:14,668 - INFO - 127.0.0.1 - - [07/Apr/2025 14:54:14] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:54:14,677 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:54:17,455 - INFO - 127.0.0.1 - - [07/Apr/2025 14:54:17] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:54:17,781 - INFO - 127.0.0.1 - - [07/Apr/2025 14:54:17] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:55:32,977 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:55:32,993 - INFO - 127.0.0.1 - - [07/Apr/2025 14:55:32] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:55:33,002 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:55:34,715 - INFO - 127.0.0.1 - - [07/Apr/2025 14:55:34] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:55:35,027 - INFO - 127.0.0.1 - - [07/Apr/2025 14:55:35] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 14:56:14,351 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:56:14,848 - INFO -  * Restarting with stat
+2025-04-07 14:56:32,508 - WARNING -  * Debugger is active!
+2025-04-07 14:56:32,535 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:56:44,518 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:56:44,929 - INFO -  * Restarting with stat
+2025-04-07 14:57:00,647 - WARNING -  * Debugger is active!
+2025-04-07 14:57:00,653 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:57:06,366 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 14:57:06,828 - INFO -  * Restarting with stat
+2025-04-07 14:57:23,030 - WARNING -  * Debugger is active!
+2025-04-07 14:57:23,052 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:58:10,164 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 14:58:11,067 - INFO -  * Restarting with stat
+2025-04-07 14:58:28,225 - WARNING -  * Debugger is active!
+2025-04-07 14:58:28,236 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:58:37,577 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 14:58:38,198 - INFO -  * Restarting with stat
+2025-04-07 14:58:55,634 - WARNING -  * Debugger is active!
+2025-04-07 14:58:55,648 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 14:58:55,933 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:58:55,933 - INFO - 127.0.0.1 - - [07/Apr/2025 14:58:55] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:58:55,942 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 14:58:57,666 - INFO - 127.0.0.1 - - [07/Apr/2025 14:58:57] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 14:58:57,985 - INFO - 127.0.0.1 - - [07/Apr/2025 14:58:57] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:00:03,855 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:00:03,855 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:03] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:00:03,862 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:00:09,615 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:09] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:00:09,936 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:09] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:00:27,764 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:00:27,767 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:27] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:00:27,776 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:00:47,372 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:47] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:00:47,690 - INFO - 127.0.0.1 - - [07/Apr/2025 15:00:47] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:02:11,133 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:02:11,574 - INFO -  * Restarting with stat
+2025-04-07 15:02:29,475 - WARNING -  * Debugger is active!
+2025-04-07 15:02:29,483 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:02:40,281 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:02:40,281 - INFO - 127.0.0.1 - - [07/Apr/2025 15:02:40] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:02:40,292 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:03:23,388 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:23] "POST /analyze HTTP/1.1" 200 -
+2025-04-07 15:03:23,617 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:23] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg HTTP/1.1" 200 -
+2025-04-07 15:03:23,817 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:23] "GET /results/FBADiagrams/Blow%20Hole.jpg HTTP/1.1" 200 -
+2025-04-07 15:03:23,875 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:23] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:03:23,927 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:23] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:03:24,021 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:03:24,095 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg HTTP/1.1" 200 -
+2025-04-07 15:03:24,463 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:03:24,578 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,582 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/FBADiagrams/Blow%20Hole.jpg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,584 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,588 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,591 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,591 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg?t=1744018404482 HTTP/1.1" 200 -
+2025-04-07 15:03:24,794 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:03:24,798 - INFO - 127.0.0.1 - - [07/Apr/2025 15:03:24] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:04:23,734 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 15:04:24,267 - INFO -  * Restarting with stat
+2025-04-07 15:04:41,297 - WARNING -  * Debugger is active!
+2025-04-07 15:04:41,313 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:04:54,386 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:04:54,388 - INFO - 127.0.0.1 - - [07/Apr/2025 15:04:54] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:04:54,395 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:04:56,065 - INFO - 127.0.0.1 - - [07/Apr/2025 15:04:56] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:04:56,392 - INFO - 127.0.0.1 - - [07/Apr/2025 15:04:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:05:04,918 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:05:04,918 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:04] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:05:04,929 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:05:06,216 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:06] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:05:06,225 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:06] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:05:47,999 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:05:47,999 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:05:48,014 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:05:53,186 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:53] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:05:53,498 - INFO - 127.0.0.1 - - [07/Apr/2025 15:05:53] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:07:43,468 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:07:43,468 - INFO - 127.0.0.1 - - [07/Apr/2025 15:07:43] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:07:43,476 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:07:48,291 - INFO - 127.0.0.1 - - [07/Apr/2025 15:07:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:07:48,607 - INFO - 127.0.0.1 - - [07/Apr/2025 15:07:48] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:09:31,205 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:09:31,641 - INFO -  * Restarting with stat
+2025-04-07 15:09:47,598 - WARNING -  * Debugger is active!
+2025-04-07 15:09:47,601 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:09:50,309 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:09:50,709 - INFO -  * Restarting with stat
+2025-04-07 15:10:06,301 - WARNING -  * Debugger is active!
+2025-04-07 15:10:06,308 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:10:41,454 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:10:41,454 - INFO - 127.0.0.1 - - [07/Apr/2025 15:10:41] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:10:41,464 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:10:43,826 - INFO - 127.0.0.1 - - [07/Apr/2025 15:10:43] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:10:44,150 - INFO - 127.0.0.1 - - [07/Apr/2025 15:10:44] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:11:29,835 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:11:30,268 - INFO -  * Restarting with stat
+2025-04-07 15:11:45,878 - WARNING -  * Debugger is active!
+2025-04-07 15:11:45,891 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:11:48,809 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:11:49,158 - INFO -  * Restarting with stat
+2025-04-07 15:12:04,617 - WARNING -  * Debugger is active!
+2025-04-07 15:12:04,629 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:12:09,622 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:12:09,624 - INFO - 127.0.0.1 - - [07/Apr/2025 15:12:09] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:12:09,631 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:12:13,182 - INFO - 127.0.0.1 - - [07/Apr/2025 15:12:13] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:12:13,501 - INFO - 127.0.0.1 - - [07/Apr/2025 15:12:13] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:12:37,034 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:12:37,034 - INFO - 127.0.0.1 - - [07/Apr/2025 15:12:37] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:12:37,043 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:13:00,501 - INFO - 127.0.0.1 - - [07/Apr/2025 15:13:00] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:13:00,820 - INFO - 127.0.0.1 - - [07/Apr/2025 15:13:00] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:13:24,408 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:13:24,852 - INFO -  * Restarting with stat
+2025-04-07 15:13:40,524 - WARNING -  * Debugger is active!
+2025-04-07 15:13:40,530 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:13:50,969 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:13:51,646 - INFO -  * Restarting with stat
+2025-04-07 15:14:08,340 - WARNING -  * Debugger is active!
+2025-04-07 15:14:08,347 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:14:15,102 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:14:15,525 - INFO -  * Restarting with stat
+2025-04-07 15:14:30,884 - WARNING -  * Debugger is active!
+2025-04-07 15:14:30,889 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:14:36,240 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:14:36,659 - INFO -  * Restarting with stat
+2025-04-07 15:14:53,344 - WARNING -  * Debugger is active!
+2025-04-07 15:14:53,360 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:14:53,640 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:14:53,640 - INFO - 127.0.0.1 - - [07/Apr/2025 15:14:53] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:14:53,640 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:14:57,442 - INFO - 127.0.0.1 - - [07/Apr/2025 15:14:57] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:14:57,759 - INFO - 127.0.0.1 - - [07/Apr/2025 15:14:57] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:21:47,382 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:21:48,014 - INFO -  * Restarting with stat
+2025-04-07 15:22:05,091 - WARNING -  * Debugger is active!
+2025-04-07 15:22:05,093 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:22:25,094 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:22:25,094 - INFO - 127.0.0.1 - - [07/Apr/2025 15:22:25] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:22:25,100 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:22:56,212 - INFO - 127.0.0.1 - - [07/Apr/2025 15:22:56] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:22:56,530 - INFO - 127.0.0.1 - - [07/Apr/2025 15:22:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:23:30,502 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:23:31,232 - INFO -  * Restarting with stat
+2025-04-07 15:23:46,511 - WARNING -  * Debugger is active!
+2025-04-07 15:23:46,521 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:23:47,423 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:23:47,424 - INFO - 127.0.0.1 - - [07/Apr/2025 15:23:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:23:47,432 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:24:37,160 - INFO - 127.0.0.1 - - [07/Apr/2025 15:24:37] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:24:37,470 - INFO - 127.0.0.1 - - [07/Apr/2025 15:24:37] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:24:47,157 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:24:47,157 - INFO - 127.0.0.1 - - [07/Apr/2025 15:24:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:24:47,168 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:24:48,577 - INFO - 127.0.0.1 - - [07/Apr/2025 15:24:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:24:48,894 - INFO - 127.0.0.1 - - [07/Apr/2025 15:24:48] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:25:19,550 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:25:19,550 - INFO - 127.0.0.1 - - [07/Apr/2025 15:25:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:25:19,561 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:25:26,613 - INFO - 127.0.0.1 - - [07/Apr/2025 15:25:26] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:25:26,939 - INFO - 127.0.0.1 - - [07/Apr/2025 15:25:26] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:25:49,748 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:25:49,748 - INFO - 127.0.0.1 - - [07/Apr/2025 15:25:49] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:25:49,757 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:27:33,288 - INFO - 127.0.0.1 - - [07/Apr/2025 15:27:33] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:27:33,610 - INFO - 127.0.0.1 - - [07/Apr/2025 15:27:33] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:27:51,272 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:27:51,272 - INFO - 127.0.0.1 - - [07/Apr/2025 15:27:51] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:27:51,279 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:27:52,015 - INFO - 127.0.0.1 - - [07/Apr/2025 15:27:52] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:27:52,027 - INFO - 127.0.0.1 - - [07/Apr/2025 15:27:52] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:28:09,258 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:28:09,262 - INFO - 127.0.0.1 - - [07/Apr/2025 15:28:09] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:28:09,266 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:28:12,250 - INFO - 127.0.0.1 - - [07/Apr/2025 15:28:12] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:28:12,566 - INFO - 127.0.0.1 - - [07/Apr/2025 15:28:12] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:28:58,269 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:28:58,786 - INFO -  * Restarting with stat
+2025-04-07 15:29:16,192 - WARNING -  * Debugger is active!
+2025-04-07 15:29:16,208 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:29:16,515 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:29:16,517 - INFO - 127.0.0.1 - - [07/Apr/2025 15:29:16] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:29:16,520 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:29:19,829 - INFO - 127.0.0.1 - - [07/Apr/2025 15:29:19] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:29:20,146 - INFO - 127.0.0.1 - - [07/Apr/2025 15:29:20] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:30:02,176 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:30:02,624 - INFO -  * Restarting with stat
+2025-04-07 15:30:18,780 - WARNING -  * Debugger is active!
+2025-04-07 15:30:18,787 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:30:27,344 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:30:27,899 - INFO -  * Restarting with stat
+2025-04-07 15:30:45,542 - WARNING -  * Debugger is active!
+2025-04-07 15:30:45,558 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:30:45,780 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:30:45,780 - INFO - 127.0.0.1 - - [07/Apr/2025 15:30:45] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:30:45,780 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:30:51,031 - INFO - 127.0.0.1 - - [07/Apr/2025 15:30:51] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:30:51,347 - INFO - 127.0.0.1 - - [07/Apr/2025 15:30:51] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:31:13,662 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:31:14,315 - INFO -  * Restarting with stat
+2025-04-07 15:31:30,823 - WARNING -  * Debugger is active!
+2025-04-07 15:31:30,830 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:31:39,257 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:31:40,044 - INFO -  * Restarting with stat
+2025-04-07 15:31:56,089 - WARNING -  * Debugger is active!
+2025-04-07 15:31:56,099 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:36:16,583 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:36:16,585 - INFO - 127.0.0.1 - - [07/Apr/2025 15:36:16] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:36:16,589 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:36:19,425 - INFO - 127.0.0.1 - - [07/Apr/2025 15:36:19] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:36:19,745 - INFO - 127.0.0.1 - - [07/Apr/2025 15:36:19] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:36:44,302 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:36:45,204 - INFO -  * Restarting with stat
+2025-04-07 15:37:04,758 - WARNING -  * Debugger is active!
+2025-04-07 15:37:04,771 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:37:05,099 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:37:05,108 - INFO - 127.0.0.1 - - [07/Apr/2025 15:37:05] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:37:05,115 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:37:16,800 - INFO - 127.0.0.1 - - [07/Apr/2025 15:37:16] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:37:17,124 - INFO - 127.0.0.1 - - [07/Apr/2025 15:37:17] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:37:30,111 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-07 15:37:30,626 - INFO -  * Restarting with stat
+2025-04-07 15:37:46,078 - WARNING -  * Debugger is active!
+2025-04-07 15:37:46,103 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:37:55,466 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:37:55,471 - INFO - 127.0.0.1 - - [07/Apr/2025 15:37:55] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:37:55,475 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:38:00,996 - INFO - 127.0.0.1 - - [07/Apr/2025 15:38:00] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:38:01,332 - INFO - 127.0.0.1 - - [07/Apr/2025 15:38:01] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:39:22,179 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:39:22,179 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:22] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:39:22,196 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:39:23,505 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:23] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:39:23,826 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:23] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:39:46,041 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:39:46,042 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:46] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:39:46,050 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:39:53,628 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:53] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:39:53,942 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:53] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:43:19,288 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:43:19,288 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:43:19,298 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:43:23,378 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:23] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:43:23,707 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:23] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:43:53,512 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:43:53,514 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:53] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:43:53,517 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:43:55,215 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:55] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:43:55,224 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:55] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:44:38,763 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:44:39,433 - INFO -  * Restarting with stat
+2025-04-07 15:46:21,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 15:46:21,031 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 15:46:21,031 - INFO -  * Restarting with stat
+2025-04-07 15:46:40,342 - WARNING -  * Debugger is active!
+2025-04-07 15:46:40,358 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:46:40,580 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:46:40,580 - INFO - 127.0.0.1 - - [07/Apr/2025 15:46:40] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:46:40,583 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:46:43,056 - INFO - 127.0.0.1 - - [07/Apr/2025 15:46:43] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:46:43,382 - INFO - 127.0.0.1 - - [07/Apr/2025 15:46:43] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:47:07,545 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:47:07,548 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:07] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:47:07,554 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:47:09,086 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:09] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:47:09,104 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:09] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:47:39,870 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:47:39,874 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:39] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:47:39,882 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:47:43,109 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:43] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:47:43,430 - INFO - 127.0.0.1 - - [07/Apr/2025 15:47:43] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:48:02,003 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:48:02,003 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:02] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:48:02,010 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:48:04,211 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:04] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:48:04,533 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:04] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:48:12,482 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:48:12,487 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:12] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:48:12,496 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:48:15,843 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:15] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:48:16,163 - INFO - 127.0.0.1 - - [07/Apr/2025 15:48:16] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:49:09,566 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:49:10,170 - INFO -  * Restarting with stat
+2025-04-07 15:49:28,006 - WARNING -  * Debugger is active!
+2025-04-07 15:49:28,026 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:49:28,265 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:49:28,265 - INFO - 127.0.0.1 - - [07/Apr/2025 15:49:28] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:49:28,265 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:49:31,664 - INFO - 127.0.0.1 - - [07/Apr/2025 15:49:31] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:49:31,984 - INFO - 127.0.0.1 - - [07/Apr/2025 15:49:31] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:50:12,154 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:50:12,154 - INFO - 127.0.0.1 - - [07/Apr/2025 15:50:12] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:50:12,161 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:51:15,267 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "POST /refcomp HTTP/1.1" 200 -
+2025-04-07 15:51:15,365 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg?t=1744021271 HTTP/1.1" 200 -
+2025-04-07 15:51:15,469 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/FBADiagrams/Blow%20Hole.jpg HTTP/1.1" 200 -
+2025-04-07 15:51:15,501 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:51:15,516 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:51:15,565 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg HTTP/1.1" 200 -
+2025-04-07 15:51:15,602 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg HTTP/1.1" 200 -
+2025-04-07 15:51:15,754 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:51:15,974 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg?t=1744021271 HTTP/1.1" 200 -
+2025-04-07 15:51:15,974 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/FBADiagrams/Blow%20Hole.jpg?t=1744021275768 HTTP/1.1" 200 -
+2025-04-07 15:51:15,974 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/temp/Distribution%20plot%20of%20permeability.jpeg?t=1744021275768 HTTP/1.1" 200 -
+2025-04-07 15:51:15,987 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:15] "GET /results/Munjal/temp/Box%20plot%20of%20permeability.jpeg?t=1744021275768 HTTP/1.1" 200 -
+2025-04-07 15:51:16,019 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:16] "GET /results/Munjal/temp/Correlation%20plot%20of%20permeability.jpeg?t=1744021275768 HTTP/1.1" 200 -
+2025-04-07 15:51:16,058 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:16] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg?t=1744021275768 HTTP/1.1" 200 -
+2025-04-07 15:51:16,067 - INFO - 127.0.0.1 - - [07/Apr/2025 15:51:16] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:53:20,375 - INFO - 127.0.0.1 - - [07/Apr/2025 15:53:20] "GET /results/Munjal/reports/Fishbone_Report_Blow_Hole_07-04-2025.pdf HTTP/1.1" 200 -
+2025-04-07 15:54:24,241 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:54:24,242 - INFO - 127.0.0.1 - - [07/Apr/2025 15:54:24] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:54:24,252 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:54:26,074 - INFO - 127.0.0.1 - - [07/Apr/2025 15:54:26] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:54:26,398 - INFO - 127.0.0.1 - - [07/Apr/2025 15:54:26] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:55:21,460 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:55:21,460 - INFO - 127.0.0.1 - - [07/Apr/2025 15:55:21] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:55:21,467 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:55:27,532 - INFO - 127.0.0.1 - - [07/Apr/2025 15:55:27] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:55:27,851 - INFO - 127.0.0.1 - - [07/Apr/2025 15:55:27] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:55:55,495 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:55:56,637 - INFO -  * Restarting with stat
+2025-04-07 15:56:14,019 - WARNING -  * Debugger is active!
+2025-04-07 15:56:14,034 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:56:20,905 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:56:20,919 - INFO - 127.0.0.1 - - [07/Apr/2025 15:56:20] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:56:20,929 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:56:23,448 - INFO - 127.0.0.1 - - [07/Apr/2025 15:56:23] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:56:23,774 - INFO - 127.0.0.1 - - [07/Apr/2025 15:56:23] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:57:27,597 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 15:57:28,364 - INFO -  * Restarting with stat
+2025-04-07 15:57:46,889 - WARNING -  * Debugger is active!
+2025-04-07 15:57:46,902 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:57:47,177 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:57:47,179 - INFO - 127.0.0.1 - - [07/Apr/2025 15:57:47] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:57:47,182 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:57:48,778 - INFO - 127.0.0.1 - - [07/Apr/2025 15:57:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:57:49,096 - INFO - 127.0.0.1 - - [07/Apr/2025 15:57:49] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:58:15,421 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:58:15,421 - INFO - 127.0.0.1 - - [07/Apr/2025 15:58:15] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:58:15,431 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 15:58:18,533 - INFO - 127.0.0.1 - - [07/Apr/2025 15:58:18] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 15:58:18,550 - INFO - 127.0.0.1 - - [07/Apr/2025 15:58:18] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 15:59:15,085 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\services\\intent_services.py', reloading
+2025-04-07 15:59:15,484 - INFO -  * Restarting with stat
+2025-04-07 15:59:31,636 - WARNING -  * Debugger is active!
+2025-04-07 15:59:31,650 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:59:34,558 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\services\\intent_services.py', reloading
+2025-04-07 15:59:34,923 - INFO -  * Restarting with stat
+2025-04-07 15:59:49,860 - WARNING -  * Debugger is active!
+2025-04-07 15:59:49,879 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 15:59:52,685 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\services\\intent_services.py', reloading
+2025-04-07 15:59:53,075 - INFO -  * Restarting with stat
+2025-04-07 16:00:08,640 - WARNING -  * Debugger is active!
+2025-04-07 16:00:08,657 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:00:14,904 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:00:14,905 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:14] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:00:14,913 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:00:50,485 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:50] "POST /refcomp HTTP/1.1" 200 -
+2025-04-07 16:00:50,632 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:50] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg?t=1744021845 HTTP/1.1" 200 -
+2025-04-07 16:00:50,856 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:50] "GET /results/FBADiagrams/Broken%20Mould.jpg HTTP/1.1" 200 -
+2025-04-07 16:00:50,913 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:50] "GET /results/Munjal/temp/Distribution%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:00:50,960 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:50] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:00:51,026 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:00:51,094 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/summary_table_plot_Broken%20Mould.jpeg HTTP/1.1" 200 -
+2025-04-07 16:00:51,497 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg?t=1744021845 HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg?t=1744021851504 HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/temp/Distribution%20plot%20of%20gcs.jpeg?t=1744021851504 HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/FBADiagrams/Broken%20Mould.jpg?t=1744021851504 HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg?t=1744021851504 HTTP/1.1" 200 -
+2025-04-07 16:00:51,759 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "GET /results/Munjal/summary_table_plot_Broken%20Mould.jpeg?t=1744021851504 HTTP/1.1" 200 -
+2025-04-07 16:00:51,817 - INFO - 127.0.0.1 - - [07/Apr/2025 16:00:51] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:01:52,318 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\fishbone_analytics_new.py', reloading
+2025-04-07 16:01:53,028 - INFO -  * Restarting with stat
+2025-04-07 16:02:09,344 - WARNING -  * Debugger is active!
+2025-04-07 16:02:09,372 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:17:49,761 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:17:49,777 - INFO - 127.0.0.1 - - [07/Apr/2025 16:17:49] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:17:49,786 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:17:52,112 - INFO - 127.0.0.1 - - [07/Apr/2025 16:17:52] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:17:52,439 - INFO - 127.0.0.1 - - [07/Apr/2025 16:17:52] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:18:42,939 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:18:42,939 - INFO - 127.0.0.1 - - [07/Apr/2025 16:18:42] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:18:42,947 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:18:46,312 - INFO - 127.0.0.1 - - [07/Apr/2025 16:18:46] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:18:46,342 - INFO - 127.0.0.1 - - [07/Apr/2025 16:18:46] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:20:40,435 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\chatbot.py', reloading
+2025-04-07 16:20:41,709 - INFO -  * Restarting with stat
+2025-04-07 16:21:03,190 - WARNING -  * Debugger is active!
+2025-04-07 16:21:03,261 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:21:03,817 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:21:03,819 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:03] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:21:03,824 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:21:49,973 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:49] "POST /analyze HTTP/1.1" 200 -
+2025-04-07 16:21:50,099 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg HTTP/1.1" 200 -
+2025-04-07 16:21:50,220 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/FBADiagrams/Broken%20Mould.jpg HTTP/1.1" 200 -
+2025-04-07 16:21:50,252 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Distribution%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:21:50,267 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:21:50,317 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:21:50,362 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/summary_table_plot_Broken%20Mould.jpeg HTTP/1.1" 200 -
+2025-04-07 16:21:50,545 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:21:50,860 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:21:50,860 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:21:50,923 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:21:50,923 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/FBADiagrams/Broken%20Mould.jpg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:21:50,923 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Distribution%20plot%20of%20gcs.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:21:50,950 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:21:50,955 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:21:50,961 - INFO - 127.0.0.1 - - [07/Apr/2025 16:21:50] "GET /results/Munjal/summary_table_plot_Broken%20Mould.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:22:19,565 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:22:19,566 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:22:19,571 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:22:20,569 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:20] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:22:20,581 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:20] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:22:42,873 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:22:42,875 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:42] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:22:42,887 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:22:44,861 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:44] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:22:45,190 - INFO - 127.0.0.1 - - [07/Apr/2025 16:22:45] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:23:25,307 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:23:25,309 - INFO - 127.0.0.1 - - [07/Apr/2025 16:23:25] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:23:25,318 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:23:59,451 - INFO - 127.0.0.1 - - [07/Apr/2025 16:23:59] "POST /chart HTTP/1.1" 200 -
+2025-04-07 16:24:28,925 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:28] "POST /chart HTTP/1.1" 200 -
+2025-04-07 16:24:56,004 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "POST /chart HTTP/1.1" 200 -
+2025-04-07 16:24:56,011 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:24:56,343 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:24:56,351 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:24:56,457 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "GET /results/Munjal/temp/Distribution%20Plot%20of%20gcs.jpeg?t=1744023239 HTTP/1.1" 200 -
+2025-04-07 16:24:56,458 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg?t=1744023268 HTTP/1.1" 200 -
+2025-04-07 16:24:56,471 - INFO - 127.0.0.1 - - [07/Apr/2025 16:24:56] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg?t=1744023296 HTTP/1.1" 200 -
+2025-04-07 16:33:06,511 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:33:08,813 - INFO -  * Restarting with stat
+2025-04-07 16:33:27,439 - WARNING -  * Debugger is active!
+2025-04-07 16:33:27,448 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:34:40,635 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:34:41,507 - INFO -  * Restarting with stat
+2025-04-07 16:34:58,698 - WARNING -  * Debugger is active!
+2025-04-07 16:34:58,710 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:35:19,167 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:35:19,168 - INFO - 127.0.0.1 - - [07/Apr/2025 16:35:19] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:35:19,175 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:36:01,555 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:01] "POST /chart HTTP/1.1" 200 -
+2025-04-07 16:36:01,559 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:01] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:36:01,931 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:01] "GET /results/Munjal/temp/Correlation%20plot%20of%20moisture.jpeg?t=1744023961 HTTP/1.1" 200 -
+2025-04-07 16:36:36,003 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:36:36,005 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:36] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:36:36,010 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:36:37,761 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:37] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:36:38,103 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:38] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:36:46,617 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:36:46,618 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:46] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:36:46,621 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:36:53,675 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:53] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:36:53,685 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:53] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:36:53,934 - INFO - 127.0.0.1 - - [07/Apr/2025 16:36:53] "GET /results/Munjal/charts/monthly_rejection_rate_Blow%20Hole.jpeg?timestamp=1744024013 HTTP/1.1" 200 -
+2025-04-07 16:37:14,092 - INFO - 127.0.0.1 - - [07/Apr/2025 16:37:14] "GET /results/Munjal/temp/Correlation%20plot%20of%20moisture.jpeg?t=1744023961 HTTP/1.1" 200 -
+2025-04-07 16:38:43,456 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:38:43,458 - INFO - 127.0.0.1 - - [07/Apr/2025 16:38:43] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:38:43,465 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:38:46,550 - INFO - 127.0.0.1 - - [07/Apr/2025 16:38:46] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:38:46,872 - INFO - 127.0.0.1 - - [07/Apr/2025 16:38:46] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:39:00,077 - INFO - 127.0.0.1 - - [07/Apr/2025 16:39:00] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg?t=1744023110550 HTTP/1.1" 200 -
+2025-04-07 16:39:38,639 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:39:40,322 - INFO -  * Restarting with stat
+2025-04-07 16:39:58,344 - WARNING -  * Debugger is active!
+2025-04-07 16:39:58,379 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:40:31,517 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:31] "[33mGET /get_dropdown_options?foundry=M HTTP/1.1[0m" 404 -
+2025-04-07 16:40:31,736 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:31] "[33mGET /get_dropdown_options?foundry=Mu HTTP/1.1[0m" 404 -
+2025-04-07 16:40:31,957 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:31] "[33mGET /get_dropdown_options?foundry=Mun HTTP/1.1[0m" 404 -
+2025-04-07 16:40:32,140 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:32] "[33mGET /get_dropdown_options?foundry=Munj HTTP/1.1[0m" 404 -
+2025-04-07 16:40:32,343 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:32] "[33mGET /get_dropdown_options?foundry=Munja HTTP/1.1[0m" 404 -
+2025-04-07 16:40:32,547 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:32] "GET /get_dropdown_options?foundry=Munjal HTTP/1.1" 200 -
+2025-04-07 16:40:35,166 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:35] "OPTIONS /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:40:35,171 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:35] "[31m[1mPOST /update_analysis_selection HTTP/1.1[0m" 400 -
+2025-04-07 16:40:37,018 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:37] "GET /get_dropdown_options?foundry=Munjal HTTP/1.1" 200 -
+2025-04-07 16:40:37,037 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:37] "POST /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:40:44,309 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:44] "GET /get_dropdown_options?foundry=Munjal HTTP/1.1" 200 -
+2025-04-07 16:40:44,337 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:44] "OPTIONS /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:40:44,349 - INFO - 127.0.0.1 - - [07/Apr/2025 16:40:44] "POST /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:41:02,935 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:41:02,936 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:02] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:41:02,941 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:41:03,800 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:03] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:41:04,117 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:04] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:41:34,091 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 16:41:34,668 - INFO -  * Restarting with stat
+2025-04-07 16:41:52,666 - WARNING -  * Debugger is active!
+2025-04-07 16:41:52,684 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:41:52,989 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:41:52,989 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:52] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:41:52,999 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:41:56,419 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:56] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:41:56,732 - INFO - 127.0.0.1 - - [07/Apr/2025 16:41:56] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:42:07,807 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\models\\groq_llm.py', reloading
+2025-04-07 16:42:08,846 - INFO -  * Restarting with stat
+2025-04-07 16:42:26,437 - WARNING -  * Debugger is active!
+2025-04-07 16:42:26,458 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:42:26,832 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:42:26,832 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:26] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:42:26,839 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:26] "GET /get_dropdown_options?foundry=Munjal HTTP/1.1" 200 -
+2025-04-07 16:42:26,842 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:26] "OPTIONS /analyze HTTP/1.1" 200 -
+2025-04-07 16:42:26,846 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:42:26,862 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:26] "OPTIONS /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:42:26,886 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:26] "POST /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:42:28,939 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:28] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:42:29,250 - INFO - 127.0.0.1 - - [07/Apr/2025 16:42:29] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 16:43:00,258 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "POST /analyze HTTP/1.1" 200 -
+2025-04-07 16:43:00,745 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "[36mGET /results/FBADiagrams/Broken%20Mould.jpg HTTP/1.1[0m" 304 -
+2025-04-07 16:43:00,755 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg?t=1744024377 HTTP/1.1" 200 -
+2025-04-07 16:43:00,755 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "GET /results/Munjal/temp/Distribution%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:43:00,772 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "GET /results/Munjal/temp/Box%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:43:00,775 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "GET /results/Munjal/temp/Correlation%20plot%20of%20gcs.jpeg HTTP/1.1" 200 -
+2025-04-07 16:43:00,778 - INFO - 127.0.0.1 - - [07/Apr/2025 16:43:00] "GET /results/Munjal/summary_table_plot_Broken%20Mould.jpeg HTTP/1.1" 200 -
+2025-04-07 16:44:30,720 - INFO - 127.0.0.1 - - [07/Apr/2025 16:44:30] "GET /get_dropdown_options?foundry=Munjal HTTP/1.1" 200 -
+2025-04-07 16:44:30,734 - INFO - 127.0.0.1 - - [07/Apr/2025 16:44:30] "OPTIONS /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:44:30,745 - INFO - 127.0.0.1 - - [07/Apr/2025 16:44:30] "POST /update_analysis_selection HTTP/1.1" 200 -
+2025-04-07 16:44:31,518 - INFO - 127.0.0.1 - - [07/Apr/2025 16:44:31] "OPTIONS /analyze HTTP/1.1" 200 -
+2025-04-07 16:45:05,848 - INFO - 127.0.0.1 - - [07/Apr/2025 16:45:05] "POST /analyze HTTP/1.1" 200 -
+2025-04-07 16:45:06,472 - INFO - 127.0.0.1 - - [07/Apr/2025 16:45:06] "GET /results/Munjal/monthly_rejection_rate_Broken%20Mould.jpeg?t=1744024505 HTTP/1.1" 200 -
+2025-04-07 16:45:11,686 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:45:12,692 - INFO -  * Restarting with stat
+2025-04-07 16:45:28,848 - WARNING -  * Debugger is active!
+2025-04-07 16:45:28,883 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:45:32,038 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:45:32,574 - INFO -  * Restarting with stat
+2025-04-07 16:45:50,297 - WARNING -  * Debugger is active!
+2025-04-07 16:45:50,311 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:45:56,030 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:45:56,032 - INFO - 127.0.0.1 - - [07/Apr/2025 16:45:56] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:45:56,037 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 16:46:23,683 - INFO - 127.0.0.1 - - [07/Apr/2025 16:46:23] "POST /chart HTTP/1.1" 200 -
+2025-04-07 16:46:23,683 - INFO - 127.0.0.1 - - [07/Apr/2025 16:46:23] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 16:46:24,061 - INFO - 127.0.0.1 - - [07/Apr/2025 16:46:24] "GET /results/Munjal/temp/Box%20plot%20of%20moisture.jpeg?t=1744024583 HTTP/1.1" 200 -
+2025-04-07 16:46:24,061 - INFO - 127.0.0.1 - - [07/Apr/2025 16:46:24] "GET /results/Munjal/temp/Box_plot_of_moisture.jpeg?t=1744024583 HTTP/1.1" 200 -
+2025-04-07 16:49:09,960 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:49:10,530 - INFO -  * Restarting with stat
+2025-04-07 16:49:28,155 - WARNING -  * Debugger is active!
+2025-04-07 16:49:28,178 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:49:28,797 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading
+2025-04-07 16:49:29,960 - INFO -  * Restarting with stat
+2025-04-07 16:49:47,888 - WARNING -  * Debugger is active!
+2025-04-07 16:49:47,895 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 16:50:22,395 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\api\\helper.py', reloading

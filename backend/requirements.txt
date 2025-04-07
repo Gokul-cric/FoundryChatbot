@@ -41,4 +41,9 @@ python-dotenv
 langchain-groq
 chainlit
 fastembed
-# unstructured[md]
+matplotlib
+groq 
+requests 
+PyPDF2 
+scikit-learn
+
