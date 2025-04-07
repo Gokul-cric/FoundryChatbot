@@ -36031,3 +36031,7 @@
 2025-04-07 10:53:20,363 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:20] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
 2025-04-07 10:53:20,381 - WARNING - Unknown option passed to Flask-CORS: origin
 2025-04-07 10:53:21,363 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:21] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 11:14:50,250 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 11:14:50,265 - INFO - 127.0.0.1 - - [07/Apr/2025 11:14:50] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 11:14:50,280 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 11:14:51,143 - INFO - 127.0.0.1 - - [07/Apr/2025 11:14:51] "POST /chatbot/ask HTTP/1.1" 200 -
