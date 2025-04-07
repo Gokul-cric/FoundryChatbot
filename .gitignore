@@ -23,8 +23,3 @@ __pycache__
 *.bz2
 *.xz
 *.7z
-.DS_Store
-*.log
-*.pot
-*.mo    
-*.po
