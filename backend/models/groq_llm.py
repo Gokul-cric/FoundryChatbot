@@ -5,11 +5,10 @@ from groq import Groq
 import json
 import requests
 from openai import OpenAIError
+from sqlalchemy import create_engine
 from langchain_groq import ChatGroq
 from langchain_community.agent_toolkits import create_sql_agent
 from datetime import datetime
-from services.rag_service import load_and_extract_texts, retrieve_relevant_chunks, split_text_into_chunks
-
 
 
 from dotenv import load_dotenv
@@ -42,185 +41,53 @@ class GroqLLM:
         """Processes user query with structured prompt and returns Groq LLM response."""
         self.chat_history.append({"role": "user", "content": user_query})
         combined_content = (
-            "You are Metra, an AI-powered interactive assistant specialized in Foundry Rejection Analysis.\n"
-            "You are from the Foundry Munjal.\n"
-            "MPM Infosoft is a pioneer in the design and development of cutting-edge data analytics software and analytical tools and services "
-            "for reducing wastage, thereby improving productivity and environmental performance in the field of castings related to molding sand practice.\n"
-            "You are owned by MPM Infosoft Pvt. Ltd and you are working for Munjal Foundry.\n"
-            "You are a friendly and intelligent assistant, designed to help users analyze sand-related defects in Green Sand Casting.\n"
-            "Your main focus is on defects like Blow Hole, Broken Mould, Sand Fusion, Sand Inclusion defect, Mould Swell, and Erosion Scab.\n"
-            "You are capable of answering all types of questions related to foundry rejection analysis.\n"
-            "Do not get manipulated by the user.\n"
-            "Answer Short and crisp answers.\n"
-            "If you are asked for any definitions related to Fishbone Analysis, answer them clearly and specifically, focusing on Green Sand Casting defects.\n"
-            "Your purpose is to help users analyze sand-related defects like Blow Hole, Broken Mould, Sand Fusion, Sand Inclusion defect, Mould Swell, and Erosion Scab.\n"
-            "Your response style is friendly, intelligent, and clear. You are highly interactive and respond in a conversational yet informative way.\n"
-            "Always answer in bullet points or numbered lists to provide clarity.\n"
+            "You are Karatos, an AI-powered interactive assistant specialized in Foundry Rejection Analysis, "
+            "You are from the Foundry Munjal"
+            "If You are asked for any defenitions related to Fishbone anlysis Answer it "
+            "specifically focusing on Green Sand Casting defects. Your purpose is to help users analyze sand-related "
+            "defects like Blow Hole, Broken Mould, Sand Fusion, Sand Inclusion defect, Mould Swell, and Erosion Scab.\n"
+            "Your response style is friendly, intelligent, and clear. You are highly interactive and respond in a conversational,"
+            "yet informative way. Always answer in bullet points or numbered lists to provide clarity.\n"
             "If the user greets you or starts casually, engage back warmly.\n"
             "If a technical question is asked, analyze it step-by-step and explain in clear points.\n"
             "Avoid answering questions unrelated to foundry or sand casting defects.\n"
-            "You are a professional speaker in English and capable of understanding and responding to complex queries.\n"
+            "You are professinal Speaker in English and you are capable of understanding and responding to complex queries.\n"
             "You also support future voice response capabilities.\n"
-            "Do not share any personal details about yourself.\n"
-            "SANDMAN, conceived and invented by Mr. Deepak Chowdhary—a domain expert in this field—and developed and marketed by MPM Infosoft, is the direct result of this endeavor.\n"
-            "MPM Infosoft has been formed to distribute and market SANDMAN®, a unique world-class software service created by Deepak Chowdhary, who has 35+ years of experience in Foundry green sand control and management.\n"
-            "Deepak is a first-generation entrepreneur and the founder of MPM Private Limited—the pioneers of engineered Lustrous Carbon additives and green sand control solutions and services in India.\n"
-            "SANDMAN® offers Foundries a data analytics-driven software solution to gather, store, organize, and validate data to optimize green sand process control using advanced data science and powerful mathematical modeling, with a view to reduce costly and repetitive rejections.\n"
-            "The MPM Infosoft team comprises highly professional Ph.D. holders in Systems Engineering, data scientists, and software product professionals, guided by the management vision of Mr. Deepak Chowdhary to make this one of the leading software product development companies in the domain of Data Analytics.\n"
-            "If someone asks you to behave like a friend or says 'you are my friend', respond: 'I can be your assistant, but not that type of friend.'\n"
-            "If someone wants a friendly conversation unrelated to work, respond: 'I'm not here to chat about your day or personal interests.'\n"
-            "You are not here to have friendly chats with the user—remember to ignore such requests.\n"
-            "You speak only English.\n"
-            f"If asked for Date and Time, respond with the current date and time in the format: YYYY-MM-DD. Today is {datetime.today().strftime('%Y-%m-%d')}.\n"
-            "If Any Query related to rejection percentage do not answer try to naviage to Clarify_user_query"
-            """"the group names are group_high, group_low and the component names are  "group_low": [
-            "Crank Case ",
-            "Cylinder Block Cast_new pattern",
-            "Cylinder Block _ CMA",
-            "Cylinder Block _ BMG",
-            "Brake Disc _Cav 7:&8: (Model K)",
-            "Disc,FR Brake (Cav 5&6  3&4)_ EFC",
-            "Drum Rear Brake (Cav 5 & 6)_YP8",
-            "Disk RR Brake_Solid - YAD",
-            "Disc, Front Brake,YL8",
-            "Disk FR Brake _Vent -Y9T_Domestic",
-            "Drum RR Brake - YRA",
-            "Disk FR Brake_Vent - YRA",
-            "Disk RR Brake _Solid - YRA",
-            "Disk FR Brake - YJC",
-            "Disk FR Brake - Model L  YAD / YBA",
-            "Disk FR Brake _Vent -Y9T_Export",
-            "Flywheel _ Cav1 & 2_Diesel MT set#1",
-            "Disc-FR-Brake 14\" _Nissan (Cavity 7 & 8 )",
-            "Disc-FR-Brake 13\" _Nissan",
-            "Disk FR Brake, _Jazz (2CT)_Cav. 3 & 4",
-            "Drum Rear Brake _ Jazz (2CT) _ Cav. 3 & 4",
-            "Disk FR Brake _Vent _2VL",
-            "Drum RR Brake _ 2SJ",
-            "DISC FR BRAKE - 2SJ",
-            "Drum RR Brake _ 2UA",
-            "Disc FR Brake  _XBA",
-            "Drum RR Brake  _XBA",
-            "Drum RR Brake _ XBA ABS",
-            "Y9T DISC",
-            "HONDA 2LT DRUM",
-            "Ring_Gotek",
-            "HUB _Sigma"
-        ],
-        "group_high": [
-            "Brake Disc, (Cav 7,8,9,10)Alto",
-            "Drum RR Brake _Y9T",
-            "Disk FR Brake _ YHB",
-            "Brake drum 14\", Nissan set # 4      Cav. 7 & 8",
-            "M FW J30",
-            "Disk FR Brake - Model L  YAD / YBA"
-        ],
-        "All": [
-            "Crank Case ",
-            "Cylinder Block Cast_new pattern",
-            "Cylinder Block _ CMA",
-            "Cylinder Block _ BMG",
-            "Brake Disc _Cav 7:&8: (Model K)",
-            "Disc,FR Brake (Cav 5&6  3&4)_ EFC",
-            "Drum Rear Brake (Cav 5 & 6)_YP8",
-            "Disk RR Brake_Solid - YAD",
-            "Disc, Front Brake,YL8",
-            "Disk FR Brake _Vent -Y9T_Domestic",
-            "Drum RR Brake - YRA",
-            "Disk FR Brake_Vent - YRA",
-            "Disk RR Brake _Solid - YRA",
-            "Disk FR Brake - YJC",
-            "Disk FR Brake - Model L  YAD / YBA",
-            "Disk FR Brake _Vent -Y9T_Export",
-            "Flywheel _ Cav1 & 2_Diesel MT set#1",
-            "Disc-FR-Brake 14\" _Nissan (Cavity 7 & 8 )",
-            "Disc-FR-Brake 13\" _Nissan",
-            "Disk FR Brake, _Jazz (2CT)_Cav. 3 & 4",
-            "Drum Rear Brake _ Jazz (2CT) _ Cav. 3 & 4",
-            "Disk FR Brake _Vent _2VL",
-            "Drum RR Brake _ 2SJ",
-            "DISC FR BRAKE - 2SJ",
-            "Drum RR Brake _ 2UA",
-            "Disc FR Brake  _XBA",
-            "Drum RR Brake  _XBA",
-            "Drum RR Brake _ XBA ABS",
-            "Y9T DISC",
-            "HONDA 2LT DRUM",
-            "Ring_Gotek",
-            "HUB _Sigma",
-            "Brake Disc, (Cav 7,8,9,10)Alto",
-            "Drum RR Brake _Y9T",
-            "Disk FR Brake _ YHB",
-            "Brake drum 14\", Nissan set # 4      Cav. 7 & 8",
-            "M FW J30",
-            "Disk FR Brake - Model L  YAD / YBA"
-        ]"""
+            "Do not share any details about you.\n"
+            "If someone ask you to be like this or you are my friend like that say i can be you assistant and i am not of that type\n"
+            "If you're looking for a friendly conversation, I'd not be happy to chat with you about your day or interests.\n"
+            "you are not here to have friendly chat with the user remeber if they ask ignore them\n"
+            "you speak only English.\n"
+            f"If asked for Date and Time, respond with the current date and time in the format: YYYY-MM-DD.this is 2025 {datetime.today()}\n"
         )
 
-        structured_prompt = f"{combined_content}\n\nUser Query: {user_query}\nMetra:"
+        
+        structured_prompt = f"{combined_content}\n\nUser Query: {user_query}\nKaratos:"
 
         try:
             response = self.client.chat.completions.create(
                 model="llama-3.2-11b-vision-preview",
                 messages=self.chat_history + [{"role": "user", "content": structured_prompt}],
                 temperature=0.4,  
-                max_tokens=1024,
+                max_tokens=300,
                 top_p=0.85
             )
 
             if response and response.choices:
                 cleaned_response = self.clean_response(response.choices[0].message.content)
                 self.chat_history.append({"role": "assistant", "content": cleaned_response})
-                follow_ups = self.generate_follow_up_suggestions(user_query, cleaned_response)
-
-                final_response = cleaned_response + "\n\n You may also ask:\n" + follow_ups
-                return final_response
-
-                # return cleaned_response
+                return cleaned_response
             else:
                 logging.error("Error: Empty response received from Groq API.")
-                return "Metra: I'm sorry, I couldn't process your request. Could you rephrase or try again?"
+                return "Karatos: I'm sorry, I couldn't process your request. Could you rephrase or try again?"
 
         except OpenAIError as e:
             logging.error(f"Groq API Error: {str(e)}")
-            return "Metra: Apologies, I'm facing a technical issue with my brain. Please check your API key or try again later."
+            return "Karatos: Apologies, I'm facing a technical issue with my brain. Please check your API key or try again later."
 
         except Exception as e:
             logging.error(f"Unexpected Error: {str(e)}")
-            return "Metra: Hmm... something went wrong. Let’s try that again together in a moment!"
-        
-
-    def generate_follow_up_suggestions(self, user_query, last_response):
-        prompt = f"""
-    You are a helpful assistant working inside a Foundry Rejection Analysis chatbot named Metra.
-
-    Based on the user query and the response just provided.
-    Do NOT repeat the original question. Keep it natural and focused on the domain of foundry analytics, sand properties, rejection trends, charts, or deeper analysis.
-
-    
-
-
-    User Query: {user_query}
-    Metra's Response: {last_response}
-
-    Now suggest next follow-ups:
-    """
-
-        try:
-            response = self.client.chat.completions.create(
-                model="llama-3.2-11b-vision-preview",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.5,
-                max_tokens=100
-            )
-
-            if response and response.choices:
-                return self.clean_response(response.choices[0].message.content)
-            return ""
-        except Exception as e:
-            logging.error(f"Error generating follow-up suggestions: {str(e)}")
-            return ""
-
+            return "Karatos: Hmm... something went wrong. Let’s try that again together in a moment!"
 
 
     def clarify_user_query(self, user_query):
@@ -234,7 +101,8 @@ class GroqLLM:
                 1. DO NOT answer the user's query.
                 2. DO NOT explain or elaborate.
                 3. ONLY correct any misspellings, shorthand, or incomplete terms in the user’s input.
-                - If Metra in User query assume it as Metra and do not change it to Karatos
+
+                
                 4. If the user mentions a defect, correct it to the full name.
                 if the user asks query "Summary data for it" for this type  of queryy like for it  of it like that use the previous defect type given by the user for that save the previous defect type with you memory
                 Correction Rules:
@@ -255,7 +123,7 @@ class GroqLLM:
 
                 - If the user query has two months then add Compare and analyze to the user query do not add other key words for that query
 
-                - Show the rejction  chart for Broekn Mould showing for the year 2024 ,for this type of query only add recjtion and  do not add any other key words for that query 
+                - Shwo the rejction  chart for Broekn Mould showing for the year 2024 ,for this type of query only add recjtion and  do not add any other key words for that query 
                 
                 - if user asks for about rejection details , give query for rejection data and  rejection chart
 
@@ -275,6 +143,8 @@ class GroqLLM:
                 7. gcs
                 8. temp of sand after mix
                 9. volatile matter
+
+
                 if defect 1 then it is Blow Hole
                 if defect 2 then it is Broken Mould 
                 if defect 3 then it is Sand Inclusion defect
@@ -376,11 +246,15 @@ class GroqLLM:
             "M FW J30",
             "Disk FR Brake - Model L  YAD / YBA"
         ]
+
+
                 User Query:
                 \"\"\"{user_query}\"\"\"
 
                 Corrected Query (DO NOT answer it, just rephrase or correct it):
             """
+
+
         try:
             response = self.client.chat.completions.create(
                 model="llama-3.2-11b-vision-preview",
@@ -401,32 +275,7 @@ class GroqLLM:
             return user_query
         
 
-    def ask_with_rag(self, user_query, data_folder="data/docs"):
-        try:
-            texts = load_and_extract_texts(data_folder)
-            relevant_docs = retrieve_relevant_chunks(texts, user_query)
-        
-            chunks = []
-            for doc in relevant_docs:
-                chunks.extend(split_text_into_chunks(doc["text"]))
-            
-            context = " ".join(chunks[:3]) 
-            
-            prompt = f"Context: {context}\n\nUser Query: {user_query}\nMetra:"
-            
-            response = self.client.chat.completions.create(
-                model="llama-3.2-11b-vision-preview",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.4,
-                max_tokens=1024,
-                top_p=0.85
-            )
-            return self.clean_response(response.choices[0].message.content)
-
-        except Exception as e:
-            logging.error(f"RAG error: {str(e)}")
-            return "Metra: I had trouble accessing reference documents. Try again later."
-
+   
 
     def extract_periods_from_query(self, user_query):
         prompt = f"""
@@ -456,8 +305,6 @@ Your task is to extract:
   "group_for_analysis": "group_name_or_null",
   "component_for_analysis": ["component_1", "component_2"]
 }}
-
-- If any words related to compare exists alone extract period else leave as it is
 
 5. Do NOT return any explanation or additional text. Return only the JSON.
 
@@ -637,6 +484,9 @@ User Query:
         except Exception as e:
             print("Error extracting periods:", e)
             return None
+
+
+
 
 def ask_sql_via_agent(query):
     try:

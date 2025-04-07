@@ -10,12 +10,12 @@ def detect_user_intents(query_lower):
     """
     return {
         "wants_rejection_data": match_any([
-            "rejection details", "rejection table", "show rejection table", "show rejection data","show the rejection data"
+            "rejection data", "rejection table", "show rejection table", "show rejection data"
         ], query_lower),
 
         "wants_rejection_chart": match_any([
             "rejection chart", "rejection trend", "trend", "bar graph",
-            "rejection bar chart", "trend chart", "rejection rate chart", "rejection data and chart","rejection graph"
+            "rejection bar chart", "trend chart", "rejection rate chart", "rejection data and chart","rejecti"
             "on detail","rejection details"
         ], query_lower),
 

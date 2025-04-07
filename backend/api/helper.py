@@ -362,7 +362,6 @@ def box_plot(data_for_analysis, config_file, analysis_frequency, show_plot=False
     summary_dict = {}
     box_dict = {}
 
-    
     for col in ref_data.columns:
         if is_numeric_dtype(ref_data[col]):
             data1 = ref_data[col].to_frame()
@@ -376,44 +375,39 @@ def box_plot(data_for_analysis, config_file, analysis_frequency, show_plot=False
             dfnew = pd.concat([data1, data2], axis=0)
             box_dict[col] = dfnew
 
-            change = 100 * (data1[col].median() - data2[col].median()) / data1[col].median()
+            change = 100*(data1[col].median() -
+                          data2[col].median())/data1[col].median()
             summary_dict[col] = round(abs(change), 2)
 
             if show_plot:
-                fig, ax = plt.subplots(figsize=tuple(config_file["figure_configuration"]["dist_plot"]["figsize"]))
-                
-                sns.set_style("whitegrid")
-                sns.boxplot(x='date', y=col, data=dfnew, palette="Set2", ax=ax)
-                
-                # Labels and title
-                ax.set_xlabel('Period', fontsize=config_file["figure_configuration"]["dist_plot"]["fontsize"], fontweight='bold')
-                ax.set_ylabel(col, fontsize=config_file["figure_configuration"]["box_plot"]["fontsize"], fontweight='bold')
-                ax.set_title(
-                    f' Box Plot – Absolute Change in {col}: {round(abs(change), 2)}%',
-                    fontsize=config_file["figure_configuration"]["box_plot"]["title_fontsize"],
-                    fontweight='bold',
-                    color="#4e96de"
-                )
+                fig = plt.figure(figsize=(config_file["figure_configuration"]["dist_plot"]["figsize"]
+                                 [0], config_file["figure_configuration"]["dist_plot"]["figsize"][1]))
+                title = 'Absolute change in' + " " + col + \
+                    ":" + str(round(abs(change), 2)) + " " + "%"
+                # .set(title=title,fontsize=20)###sns.boxplot(df1[item],color="r")
+                fig = sns.boxplot(x='date', y=col, data=dfnew)
+                fig.set_xlabel(
+                    'Period', fontsize=config_file["figure_configuration"]["dist_plot"]["fontsize"])
+                fig.set_ylabel(
+                    col, fontsize=config_file["figure_configuration"]["box_plot"]["fontsize"])
 
-                # Customize x-tick labels
-                ax.set_xticklabels(ax.get_xticklabels(), rotation=30, ha='right', fontsize=8, fontweight='bold')
+                plt.title(
+                    title, fontsize=config_file["figure_configuration"]["box_plot"]["title_fontsize"])
+                fig.set_xticklabels(fig.get_xticklabels(), rotation=30, horizontalalignment='right',
+                                    fontsize=6, fontweight='bold')
+                if "/" in col:
+                    col = col.replace("/", "_")
+                plt.savefig(os.path.join(results_dir, f"Box plot of {col}.jpeg"), dpi=1000)
+                # plt.show()
 
-                # Grid, layout
-                ax.yaxis.grid(True, linestyle='--', linewidth=0.5)
-                plt.tight_layout()
-
-                safe_col = col.replace("/", "_").replace(" ", "_")
-                if results_dir:
-                    os.makedirs(results_dir, exist_ok=True)
-                    fig.savefig(os.path.join(results_dir, f"Box plot of {safe_col}.jpeg"), dpi=300)
-                    plt.close(fig)
-                    plt.show()
  
     return box_dict, summary_dict
 
 
 def correlation_plot(data_for_analysis, config_file, analysis_frequency, show_plot=False,results_dir=None):
     """
+
+
     Parameters
     ----------
     data_for_analysis : TYPE
@@ -454,67 +448,39 @@ def correlation_plot(data_for_analysis, config_file, analysis_frequency, show_pl
     corr_dict = {}
     plot_labels = [legend_ref, legend_comp]
     for col in ref_data.columns:
-        if is_numeric_dtype(ref_data[col]) and col != rejection_field:
-            data1 = ref_data[[col, rejection_field]].dropna()
-            data2 = comp_data[[col, rejection_field]].dropna()
-            
-            corr_dict[col] = {
-                "data1": data1,
-                "data2": data2,
-            }
+        if is_numeric_dtype(ref_data[col]):
+            if col not in [rejection_field]:
+                data1 = ref_data[[col, rejection_field]]
+                data2 = comp_data[[col, rejection_field]]
+                corr_dict[col] = {}
+                corr_dict[col]["data1"] = data1
+                corr_dict[col]["data2"] = data2
+                if show_plot:
+                    # inside the loop
+                    fig = plt.figure(figsize=(config_file["figure_configuration"]["dist_plot"]["figsize"]
+                                            [0], config_file["figure_configuration"]["dist_plot"]["figsize"][1]))
+                    fig = sns.scatterplot(
+                        data1[col], data1[rejection_field], color="b", label=legend_ref)
+                    fig = sns.scatterplot(
+                        data2[col], data2[rejection_field], color="r", label=legend_comp)
+                    plt.legend()
+                    fig.set_xlabel(
+                        col, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
+                    fig.set_ylabel(
+                        rejection_field, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
+                    title = rejection_field + " "+'vs' + " " + col
+                    plt.title(
+                        title, fontsize=config_file["figure_configuration"]["correlation_plot"]["title_fontsize"])
+                    plt.ylim(0,)
 
-            if show_plot:
-                fig, ax = plt.subplots(figsize=tuple(config_file["figure_configuration"]["dist_plot"]["figsize"]))
-                sns.scatterplot(x=col, y=rejection_field, data=data1, color="b", label=legend_ref, ax=ax)
-                sns.scatterplot(x=col, y=rejection_field, data=data2, color="r", label=legend_comp, ax=ax)
+                    if "/" in col:
+                        col = col.replace("/", "_")
 
-                ax.set_xlabel(col, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
-                ax.set_ylabel(rejection_field, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
-                ax.set_title(f"{rejection_field} vs {col}", fontsize=config_file["figure_configuration"]["correlation_plot"]["title_fontsize"])
-                ax.set_ylim(0, max(data1[rejection_field].max(), data2[rejection_field].max()) * 1.1)
-                ax.legend()
-
-                safe_col = col.replace("/", "_").replace(" ", "_")
-                if results_dir:
-                    os.makedirs(results_dir, exist_ok=True)
-                    fig.savefig(os.path.join(results_dir, f"Correlation plot of {safe_col}.jpeg"), dpi=1000)
-                    plt.close(fig)
-                
+                    if results_dir:
+                        os.makedirs(results_dir, exist_ok=True)
+                        plt.savefig(os.path.join(results_dir, f"Correlation plot of {col}.jpeg"), dpi=1000)
                     # plt.show()
 
-    # for col in ref_data.columns:
-    #     if is_numeric_dtype(ref_data[col]):
-    #         if col not in [rejection_field]:
-    #             data1 = ref_data[[col, rejection_field]]
-    #             data2 = comp_data[[col, rejection_field]]
-    #             corr_dict[col] = {}
-    #             corr_dict[col]["data1"] = data1
-    #             corr_dict[col]["data2"] = data2
-    #             if show_plot:
-    #                 # inside the loop
-    #                 fig = plt.figure(figsize=(config_file["figure_configuration"]["dist_plot"]["figsize"]
-    #                                         [0], config_file["figure_configuration"]["dist_plot"]["figsize"][1]))
-    #                 fig = sns.scatterplot(
-    #                     data1[col], data1[rejection_field], color="b", label=legend_ref)
-    #                 fig = sns.scatterplot(
-    #                     data2[col], data2[rejection_field], color="r", label=legend_comp)
-    #                 plt.legend()
-    #                 fig.set_xlabel(
-    #                     col, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
-    #                 fig.set_ylabel(
-    #                     rejection_field, fontsize=config_file["figure_configuration"]["correlation_plot"]["fontsize"])
-    #                 title = rejection_field + " "+'vs' + " " + col
-    #                 plt.title(
-    #                     title, fontsize=config_file["figure_configuration"]["correlation_plot"]["title_fontsize"])
-    #                 plt.ylim(0,)
-
-    #                 if "/" in col:
-    #                     col = col.replace("/", "_")
-
-    #                 if results_dir:
-    #                     os.makedirs(results_dir, exist_ok=True)
-    #                     plt.savefig(os.path.join(results_dir, f"Correlation plot of {col}.jpeg"), dpi=1000)
-    #                 # plt.show()
 
     return corr_dict, plot_labels
 

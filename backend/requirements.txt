@@ -10,12 +10,15 @@ langchain_groq
 transformers
 wikipedia
 arxiv
-
+matplotlib
+pandas
 IPython
-
+numpy
+sqlalchemy
 flask
 flask-cors
 pymysql
+mysql-connector-python
 openpyxl
 flask_sqlalchemy
 flask_migrate
@@ -41,9 +44,3 @@ python-dotenv
 langchain-groq
 chainlit
 fastembed
-matplotlib
-groq 
-requests 
-PyPDF2 
-scikit-learn
-

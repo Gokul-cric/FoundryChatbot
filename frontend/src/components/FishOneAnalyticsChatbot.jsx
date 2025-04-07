@@ -102,7 +102,7 @@ const ChatbotPage = () => {
         if (botResponse.summary && botResponse.summary.messages) {
             botResponse.summary.messages.forEach((msg, index) => {
                 botMessages.push({
-                    id: Date.now() + botMessages.length + 2 + index,
+                    id: Date.now() + botMessages.length + 1 + index,
                     type: "bot",
                     content: msg,
                     timestamp: new Date(),
@@ -304,7 +304,7 @@ const ChatbotPage = () => {
               },
               ...chartObjects,
             ]);
-            speakWithElevenLabs("Here is the chart you requested.");
+            // speakWithElevenLabs("Here is the chart you requested.");
 
           }
         }
@@ -354,7 +354,7 @@ const ChatbotPage = () => {
         
 
         setMessages((prev) => [...prev, ...botMessages]);
-        speakWithElevenLabs(botResponse.messages.join(" "));
+        // speakWithElevenLabs(botResponse.messages.join(" "));
 
 
         
@@ -684,6 +684,7 @@ const handleVoiceInput = () => {
 
 
 
+// eslint-disable-next-line
 const speakWithElevenLabs = async (text) => {
   try {
     const finalText = Array.isArray(text) ? text.join(" ") : text;
@@ -710,17 +711,14 @@ const speakWithElevenLabs = async (text) => {
     <div className="full-page-chatbot">
       <div className="chatbot-header enhanced-header">
   <div className="ascii-banner">
-  <pre className="ascii-glow">{`
-███╗   ███╗███████╗████████╗██████╗   █████╗ 
-████╗ ████║██╔════╝╚══██╔══╝██╔══██╗ ██╔══██╗
-██╔████╔██║█████╗     ██║   ██████╔╝ ███████║
-██║╚██╔╝██║██╔══╝     ██║   ██╔══██║ ██╔══██║
-██║ ╚═╝ ██║███████╗   ██║   ██║  ██║ ██║  ██║
-╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═╝  ╚═╝
-               M   E   T   R   A
-`}</pre>
-
-
+    <pre className="ascii-glow">{`
+██╗  ██╗ █████╗ ██████╗  █████╗ ████████╗ ██████╗ ███████╗
+██║ ██╔╝██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝
+█████╔╝ ███████║██████╔╝███████║   ██║   ██║   ██║███████╗
+██╔═██╗ ██╔══██║██╔══██╗██╔══██║   ██║   ██║   ██║╚════██║
+██║  ██╗██║  ██║██║  ██║██║  ██║   ██║   ╚██████╔╝███████║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
+    `}</pre>
   </div>
   <button onClick={() => setIsParameterPanelOpen(!isParameterPanelOpen)} className="settings-btn">
     <Settings size={20} />
