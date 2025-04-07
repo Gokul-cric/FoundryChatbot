@@ -23,6 +23,3 @@ __pycache__
 *.bz2
 *.xz
 *.7z
-venv-packages.txt
-sql_agent.log
-ai_agent.log
