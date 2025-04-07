@@ -1,8 +1,7 @@
 .qodo
 venv
 build
-node_modules
-.env
+node_modules]
 __pycache__
 *.pyc
 *.pyo
