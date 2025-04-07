@@ -205,7 +205,7 @@ Always format the output in a **clean table structure** like this:
             )
             print("[SQL Agent] Initialized successfully.")
         except Exception as e:
-            logging.error(f"SQL Agent Init Error: {str(e)}")
+            print(f"SQL Agent Init Error: {str(e)}")
             raise
 
     def ask_sql(self, user_query):
@@ -218,7 +218,7 @@ Always format the output in a **clean table structure** like this:
             final_message = result["messages"][-1].content.strip()
             return final_message
         except Exception as e:
-            logging.error(f"SQL Query Execution Error: {str(e)}")
+            print(f"SQL Query Execution Error: {str(e)}")
             return "Failed to process SQL query."
 
 sql_agent = SQLAgentWrapper()
