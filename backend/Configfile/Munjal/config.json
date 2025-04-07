@@ -92,7 +92,7 @@
     "total_produced_qty": "total_quantity_produced",
     "data_selection": {
         "reference_period": [
-            "2025-01-01",
+            "2025-01-02",
             "2025-01-31"
         ],
         "comparison_period": [

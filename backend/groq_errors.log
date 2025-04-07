@@ -36054,3 +36054,40 @@
 2025-04-07 17:30:33,147 - INFO -  * Restarting with stat
 2025-04-07 17:30:49,248 - WARNING -  * Debugger is active!
 2025-04-07 17:30:49,255 - INFO -  * Debugger PIN: 367-012-665
+2025-04-07 17:35:18,245 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:35:18,274 - INFO - 127.0.0.1 - - [07/Apr/2025 17:35:18] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:35:18,287 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:35:31,446 - INFO - 127.0.0.1 - - [07/Apr/2025 17:35:31] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:35:31,761 - INFO - 127.0.0.1 - - [07/Apr/2025 17:35:31] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 17:37:06,338 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:37:06,340 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:06] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:37:06,354 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:37:47,942 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:47] "POST /running HTTP/1.1" 200 -
+2025-04-07 17:37:48,111 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg HTTP/1.1" 200 -
+2025-04-07 17:37:48,299 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/FBADiagrams/Blow%20Hole.jpg HTTP/1.1" 200 -
+2025-04-07 17:37:48,369 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Distribution%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 17:37:48,409 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Box%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 17:37:48,460 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Correlation%20plot%20of%20active_clay.jpeg HTTP/1.1" 200 -
+2025-04-07 17:37:48,551 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg HTTP/1.1" 200 -
+2025-04-07 17:37:48,742 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:37:48,789 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/monthly_rejection_rate_Blow%20Hole.jpeg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:48,789 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/FBADiagrams/Blow%20Hole.jpg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:48,789 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Distribution%20plot%20of%20active_clay.jpeg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:48,815 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Box%20plot%20of%20active_clay.jpeg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:48,817 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/temp/Correlation%20plot%20of%20active_clay.jpeg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:48,819 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:48] "GET /results/Munjal/summary_table_plot_Blow%20Hole.jpeg?t=1744027668745 HTTP/1.1" 200 -
+2025-04-07 17:37:49,055 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:49] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 17:37:49,059 - INFO - 127.0.0.1 - - [07/Apr/2025 17:37:49] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 17:38:45,015 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:38:45,016 - INFO - 127.0.0.1 - - [07/Apr/2025 17:38:45] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:40:00,429 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:40:00,429 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:00] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:40:00,436 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:40:01,387 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:01] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:40:01,701 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:01] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 17:40:27,927 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:40:27,929 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:27] "OPTIONS /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:40:27,937 - WARNING - Unknown option passed to Flask-CORS: origin
+2025-04-07 17:40:28,998 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:28] "POST /chatbot/ask HTTP/1.1" 200 -
+2025-04-07 17:40:29,322 - INFO - 127.0.0.1 - - [07/Apr/2025 17:40:29] "[33mOPTIONS /speak HTTP/1.1[0m" 404 -
+2025-04-07 17:40:56,839 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\services\\intent_services.py', reloading
