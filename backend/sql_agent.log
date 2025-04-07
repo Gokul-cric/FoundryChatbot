@@ -1588,3 +1588,21 @@
 2025-04-07 15:37:32,785 - INFO -  * Debugger PIN: 779-649-026
 2025-04-07 15:37:34,051 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
 2025-04-07 15:37:34,257 - INFO -  * Restarting with stat
+2025-04-07 15:37:36,499 - WARNING -  * Debugger is active!
+2025-04-07 15:37:36,503 - INFO -  * Debugger PIN: 779-649-026
+2025-04-07 15:37:58,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:37:59,844 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:38:00,990 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:38:00,996 - INFO - 127.0.0.1 - - [07/Apr/2025 15:38:00] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-07 15:39:48,791 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:49,624 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:50,518 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:51,166 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:52,212 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:52,808 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:53,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:53,612 - INFO - 127.0.0.1 - - [07/Apr/2025 15:39:53] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-07 15:43:22,022 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:43:22,602 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:43:23,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:43:23,371 - INFO - 127.0.0.1 - - [07/Apr/2025 15:43:23] "POST /ask_sql HTTP/1.1" 200 -
