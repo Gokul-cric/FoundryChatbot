@@ -1,0 +1,138 @@
+{
+    "Defectwise sand properties based on fishbone": {
+        "Blow Hole": [
+            "Active Clay (%)",
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Permeability (no)",
+            "LOI (%)",
+            "Volatile Matter (%)"
+        ],
+        "Broken Mould": [
+            "Compactability (%)",
+            "Moisture (%)",
+            "Active Clay (%)",
+            "GCS (gm/cm2)"
+        ],
+        "Erosion Scab": [
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Wet Tensile Strength (gm/cm2)",
+            "LOI (%)",
+            "GFN/AFS (no)",
+            "Active Clay (%)"
+        ],
+        "Sand Fusion": [
+            "LOI (%)",
+            "Inert Fines (%)",
+            "GFN/AFS (no)",
+            "Moisture (%)",
+            "Permeability (no)"
+        ],
+        "Mould Swell": [
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "GCS (gm/cm2)",
+            "Compactability (%)",
+            "Active Clay (%)"
+        ],
+        "Sand Inclusion defect": [
+            "Inert Fines (%)",
+            "Active Clay (%)",
+            "Compactability (%)",
+            "Moisture (%)",
+            "Temp. of Sand after mix.(C)"
+        ],
+        "Total rejection": [
+            "Active Clay (%)",
+            "GCS (gm/cm2)",
+            "Wet Tensile Strength (gm/cm2)",
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Permeability (no)",
+            "Compactability (%)",
+            "GFN/AFS (no)",
+            "LOI (%)",
+            "Volatile Matter (%)"
+        ]
+    },
+    "defect_for_analysis": "Mould Swell",
+    "defect_mapping": {
+        "Blow Hole": [
+            "BLOW HOLE (no)",
+            "BLOW HOLE MACH (no)"
+        ],
+        "Broken Mould": [
+            "MOULD BROKEN (no)"
+        ],
+        "Erosion Scab": [
+            "MOULD SCAB (no)"
+        ],
+        "Sand Fusion": [
+            "EXTRA MATERIAL (no)"
+        ],
+        "Mould Swell": [
+            "Swelling/Oversize Casting (no)"
+        ],
+        "Sand Inclusion defect": [
+            "SAND DROP (no)",
+            "SAND INCLUSION (no)"
+        ],
+        "Total rejection": [
+            "Total Sand Rejection Quantity (no)"
+        ]
+    },
+    "total_produced_qty": "Total Quantity Produced (no)",
+    "data_selection": {
+        "reference_period": [
+            "2021-01-01",
+            "2021-01-31"
+        ],
+        "comparison_period": [
+            "2022-10-01",
+            "2022-10-31"
+        ]
+    },
+    "data_sufficiency_check": {
+        "main_data": 25,
+        "ref_data": 20,
+        "comp_data": 15
+    },
+    "group_wise_analysis": false,
+    "component_wise_analysis": true,
+    "group_for_analysis": "None",
+    "component_for_analysis": [
+        "21"
+    ],
+    "group": "None",
+    "top_n_components": 10,
+    "figure_configuration": {
+        "dist_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "box_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "correlation_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        }
+    }
+}

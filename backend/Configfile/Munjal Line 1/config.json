@@ -1,0 +1,211 @@
+{
+    "Defectwise sand properties based on fishbone": {
+        "Blow Hole": [
+            "Active Clay (%)",
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Permeability (no)",
+            "LOI (%)",
+            "Volatile Matter (%)",
+            "Compactability (no)"
+        ],
+        "Broken Mould": [
+            "Compactability (%)",
+            "Moisture (%)",
+            "Active Clay (%)",
+            "GCS (kg/cm2)"
+        ],
+        "Erosion Scab": [
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Wet Tensile Strength (gm/cm2)",
+            "LOI (%)",
+            "GFN/AFS (no)",
+            "Active Clay (%)"
+        ],
+        "Sand Fusion": [
+            "LOI (%)",
+            "Inert Fines (%)",
+            "GFN/AFS (no)",
+            "Moisture (%)",
+            "Permeability (no)"
+        ],
+        "Mould Swell": [
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "GCS (kg/cm2)",
+            "Compactability (%)",
+            "Active Clay (%)"
+        ],
+        "Sand Inclusion defect": [
+            "Inert Fines (%)",
+            "GCS (kg/cm2)",
+            "Active Clay (%)",
+            "Compactability (no)",
+            "Moisture (%)",
+            "Temp, of Sand after mix,(C)"
+        ],
+        "Total rejection": [
+            "Active Clay (%)",
+            "GCS (kg/cm2)",
+            "Wet Tensile Strength (gm/cm2)",
+            "Inert Fines (%)",
+            "Moisture (%)",
+            "Permeability (no)",
+            "Compactability (%)",
+            "GFN/AFS (no)",
+            "LOI (%)",
+            "Volatile Matter (%)"
+        ]
+    },
+    "defect_for_analysis": "Blow Hole",
+    "defect_mapping": {
+        "Blow Hole": [
+            "Blow Hole Foundry Stage (no)"
+        ],
+        "Broken Mould": [
+            "Broken Mould (no)"
+        ],
+        "Erosion Scab": [
+            "Erosion Scab (no)"
+        ],
+        "Sand Fusion": [
+            "Sand Fusion (no)"
+        ],
+        "Mould Swell": [
+            "Swelling/Oversize Casting (no)"
+        ],
+        "Sand Inclusion defect": [
+            "Sand Drop/Inclusion Foundry Stage (no)",
+            "Sand Drop/Inclusion Machining Stage (no)"
+        ],
+        "Total rejection": [
+            "Total Sand Rejection Quantity (no)"
+        ]
+    },
+    "total_produced_qty": "Total Quantity Produced (no)",
+    "data_selection": {
+        "reference_period": [
+            "2023-07-01",
+            "2023-07-31"
+        ],
+        "comparison_period": [
+            "2023-09-01",
+            "2023-09-30"
+        ]
+    },
+    "data_sufficiency_check": {
+        "main_data": 1,
+        "ref_data": 1,
+        "comp_data": 1
+    },
+    "group_wise_analysis": true,
+    "component_wise_analysis": false,
+    "group_for_analysis": "group_low",
+    "component_for_analysis": [
+        "Drum RR Brake _ YHB",
+        "Flywheel _Petrol K12",
+        "CylinderBlock_MA",
+        "CylinderBlock",
+        "DISC RR Brake _ RBC",
+        "Cylinder Block_Samsung",
+        "Drum RR Brake _ RBC",
+        "CylinderBlock_BSA",
+        "Flywheel _ YG8",
+        "CrankCase",
+        "Compressure FS Body_Mini (new)",
+        "Disc FR Brake _ 2UA",
+        "Disk FR Brake_Vent - YRA",
+        "CompressureBody",
+        "Compressure Body_Mini (new)",
+        "Drum Rear Brake ,YP8",
+        "Drum RR Brake _ YRA EXPORT",
+        "Ring _\u00c2\u00a0 Cast _2818 - 028 - 232",
+        "Cylinder Block Cast _Set#9",
+        "Pulley, Crankshaft Cast_New",
+        "Drum RR Brake _ YWD(Jymny )",
+        "Pressure Plate Casting_Piggy Back",
+        "Flywheel _ Cav1 & 2_Petrol",
+        "Drum Brake ,EFC",
+        "Pressure Plate Casting",
+        "Fly Wheel",
+        "Drum Rear Brake (YN4)",
+        "Crankcase_IN728",
+        "Side Bkt MTG, (2CW)"
+    ],
+    "group": {
+        "group_low": [
+            "Drum RR Brake _ YHB",
+            "Flywheel _Petrol K12",
+            "CylinderBlock_MA",
+            "CylinderBlock",
+            "DISC RR Brake _ RBC",
+            "Cylinder Block_Samsung",
+            "Drum RR Brake _ RBC",
+            "CylinderBlock_BSA",
+            "Flywheel _ YG8",
+            "CrankCase",
+            "Compressure FS Body_Mini (new)",
+            "Disc FR Brake _ 2UA",
+            "Disk FR Brake_Vent - YRA",
+            "CompressureBody",
+            "Compressure Body_Mini (new)",
+            "Drum Rear Brake ,YP8",
+            "Drum RR Brake _ YRA EXPORT",
+            "Ring _\u00c2\u00a0 Cast _2818 - 028 - 232",
+            "Cylinder Block Cast _Set#9",
+            "Pulley, Crankshaft Cast_New",
+            "Drum RR Brake _ YWD(Jymny )",
+            "Pressure Plate Casting_Piggy Back",
+            "Flywheel _ Cav1 & 2_Petrol",
+            "Drum Brake ,EFC",
+            "Pressure Plate Casting",
+            "Fly Wheel",
+            "Drum Rear Brake (YN4)",
+            "Crankcase_IN728",
+            "Side Bkt MTG, (2CW)"
+        ],
+        "high_bh": [
+            "CylinderBlock_BSA",
+            "CylinderBlock_MA",
+            "Compressure FS Body_Mini (new)",
+            "Cylinder Block_Samsung",
+            "Drum RR Brake _ RBC",
+            "CrankCase"
+        ],
+        "high_si": [
+            "DISC RR Brake _ RBC",
+            "Drum Rear Brake ,YP8"
+        ]
+    },
+    "top_n_components": 10,
+    "figure_configuration": {
+        "dist_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "box_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "correlation_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        }
+    }
+}

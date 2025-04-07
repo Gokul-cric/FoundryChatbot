@@ -1,0 +1,966 @@
+2025-03-28 11:04:23,686 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-03-28 11:04:23,686 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:13:26,846 - INFO - 127.0.0.1 - - [28/Mar/2025 11:13:26] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:16:12,724 - INFO - 127.0.0.1 - - [28/Mar/2025 11:16:12] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:19:32,696 - ERROR - SQL Query Execution Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jm91jqcxfvzsbvsykkfsgdfk` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5787, Requested 337. Please try again in 1.235s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-03-28 11:19:32,699 - INFO - 127.0.0.1 - - [28/Mar/2025 11:19:32] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:20:02,593 - INFO - 127.0.0.1 - - [28/Mar/2025 11:20:02] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:26:13,552 - INFO - 127.0.0.1 - - [28/Mar/2025 11:26:13] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:27:40,725 - INFO - 127.0.0.1 - - [28/Mar/2025 11:27:40] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:30:20,374 - INFO - 127.0.0.1 - - [28/Mar/2025 11:30:20] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:32:26,564 - INFO - 127.0.0.1 - - [28/Mar/2025 11:32:26] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:34:05,081 - INFO - 127.0.0.1 - - [28/Mar/2025 11:34:05] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:36:24,363 - INFO - 127.0.0.1 - - [28/Mar/2025 11:36:24] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 11:43:30,570 - ERROR - SQL Agent Init Error: include_tables {'rejection_analysis', 'prepared_mcie', 'rejection_mcie'} not found in database
+2025-03-28 11:43:53,879 - ERROR - SQL Agent Init Error: include_tables {'rejection_analysis'} not found in database
+2025-03-28 11:44:37,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 11:44:37,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:44:37,890 - INFO -  * Restarting with stat
+2025-03-28 11:44:40,336 - WARNING -  * Debugger is active!
+2025-03-28 11:44:40,336 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:14:49,837 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:14:50,324 - INFO -  * Restarting with stat
+2025-03-28 12:14:54,206 - WARNING -  * Debugger is active!
+2025-03-28 12:14:54,213 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:15:07,613 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:15:07,946 - INFO -  * Restarting with stat
+2025-03-28 12:15:10,855 - ERROR - SQL Agent Init Error: name 'system_prompt' is not defined
+2025-03-28 12:15:26,039 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 12:15:26,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:15:26,041 - INFO -  * Restarting with stat
+2025-03-28 12:15:29,197 - WARNING -  * Debugger is active!
+2025-03-28 12:15:29,203 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:16:09,250 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:16:09,486 - INFO -  * Restarting with stat
+2025-03-28 12:16:18,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 12:16:18,468 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:16:18,470 - INFO -  * Restarting with stat
+2025-03-28 12:16:21,365 - WARNING -  * Debugger is active!
+2025-03-28 12:16:21,369 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:23:32,931 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:23:33,191 - INFO -  * Restarting with stat
+2025-03-28 12:23:36,256 - WARNING -  * Debugger is active!
+2025-03-28 12:23:36,260 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:24:25,473 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:24:25,734 - INFO -  * Restarting with stat
+2025-03-28 12:24:28,373 - WARNING -  * Debugger is active!
+2025-03-28 12:24:28,377 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:24:36,479 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:24:36,833 - INFO -  * Restarting with stat
+2025-03-28 12:24:40,255 - WARNING -  * Debugger is active!
+2025-03-28 12:24:40,261 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:28:05,743 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:28:05,951 - INFO -  * Restarting with stat
+2025-03-28 12:28:09,337 - WARNING -  * Debugger is active!
+2025-03-28 12:28:09,342 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:29:26,845 - INFO - 127.0.0.1 - - [28/Mar/2025 12:29:26] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:34:00,675 - INFO - 127.0.0.1 - - [28/Mar/2025 12:34:00] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:35:08,262 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:35:08,442 - INFO -  * Restarting with stat
+2025-03-28 12:35:11,401 - WARNING -  * Debugger is active!
+2025-03-28 12:35:11,404 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:35:14,786 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:35:15,016 - INFO -  * Restarting with stat
+2025-03-28 12:36:06,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 12:36:06,477 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:36:06,479 - INFO -  * Restarting with stat
+2025-03-28 12:36:09,538 - WARNING -  * Debugger is active!
+2025-03-28 12:36:09,542 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:36:28,837 - ERROR - SQL Query Execution Error: Missing some input keys: {'input'}
+2025-03-28 12:36:28,839 - INFO - 127.0.0.1 - - [28/Mar/2025 12:36:28] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:37:34,312 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:37:34,647 - INFO -  * Restarting with stat
+2025-03-28 12:37:38,458 - WARNING -  * Debugger is active!
+2025-03-28 12:37:38,463 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:37:51,350 - ERROR - SQL Query Execution Error: Missing some input keys: {'input'}
+2025-03-28 12:37:51,351 - INFO - 127.0.0.1 - - [28/Mar/2025 12:37:51] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:38:08,922 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:38:09,168 - INFO -  * Restarting with stat
+2025-03-28 12:38:12,740 - WARNING -  * Debugger is active!
+2025-03-28 12:38:12,744 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:38:24,924 - ERROR - SQL Query Execution Error: Missing some input keys: {'input'}
+2025-03-28 12:38:24,927 - INFO - 127.0.0.1 - - [28/Mar/2025 12:38:24] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:38:52,638 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:38:52,953 - INFO -  * Restarting with stat
+2025-03-28 12:38:56,170 - WARNING -  * Debugger is active!
+2025-03-28 12:38:56,174 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:39:04,955 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:39:05,182 - INFO -  * Restarting with stat
+2025-03-28 12:39:08,487 - WARNING -  * Debugger is active!
+2025-03-28 12:39:08,490 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:39:12,056 - ERROR - SQL Query Execution Error: Missing some input keys: {'input'}
+2025-03-28 12:39:12,057 - INFO - 127.0.0.1 - - [28/Mar/2025 12:39:12] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:40:13,490 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 12:40:13,490 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:40:13,492 - INFO -  * Restarting with stat
+2025-03-28 12:40:16,524 - WARNING -  * Debugger is active!
+2025-03-28 12:40:16,527 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:40:17,913 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:40:18,215 - INFO -  * Restarting with stat
+2025-03-28 12:40:21,811 - WARNING -  * Debugger is active!
+2025-03-28 12:40:21,818 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:40:24,264 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:40:24,493 - INFO -  * Restarting with stat
+2025-03-28 12:40:27,570 - WARNING -  * Debugger is active!
+2025-03-28 12:40:27,579 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:40:31,188 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:40:31,416 - INFO -  * Restarting with stat
+2025-03-28 12:40:34,258 - WARNING -  * Debugger is active!
+2025-03-28 12:40:34,264 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:40:37,742 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:40:38,017 - INFO -  * Restarting with stat
+2025-03-28 12:40:41,361 - WARNING -  * Debugger is active!
+2025-03-28 12:40:41,368 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:43:08,328 - ERROR - SQL Query Execution Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jm91jqcxfvzsbvsykkfsgdfk` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 7206, Requested 614. Please try again in 18.207s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-03-28 12:43:08,330 - INFO - 127.0.0.1 - - [28/Mar/2025 12:43:08] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:44:16,618 - INFO - 127.0.0.1 - - [28/Mar/2025 12:44:16] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:52:27,892 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:52:28,336 - INFO -  * Restarting with stat
+2025-03-28 12:52:32,756 - WARNING -  * Debugger is active!
+2025-03-28 12:52:32,756 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:52:52,313 - INFO - 127.0.0.1 - - [28/Mar/2025 12:52:52] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:53:44,001 - INFO - 127.0.0.1 - - [28/Mar/2025 12:53:44] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:54:47,059 - INFO - 127.0.0.1 - - [28/Mar/2025 12:54:47] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 12:59:24,228 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 12:59:24,413 - INFO -  * Restarting with stat
+2025-03-28 12:59:27,675 - WARNING -  * Debugger is active!
+2025-03-28 12:59:27,680 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 12:59:53,612 - INFO - 127.0.0.1 - - [28/Mar/2025 12:59:53] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 13:01:27,444 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 13:01:27,705 - INFO -  * Restarting with stat
+2025-03-28 13:01:31,006 - WARNING -  * Debugger is active!
+2025-03-28 13:01:31,013 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 13:01:34,361 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 13:01:34,586 - INFO -  * Restarting with stat
+2025-03-28 13:01:37,495 - WARNING -  * Debugger is active!
+2025-03-28 13:01:37,512 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 13:01:38,967 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 13:01:39,168 - INFO -  * Restarting with stat
+2025-03-28 13:01:41,862 - WARNING -  * Debugger is active!
+2025-03-28 13:01:41,869 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 13:02:03,060 - INFO - 127.0.0.1 - - [28/Mar/2025 13:02:03] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 13:02:39,833 - INFO - 127.0.0.1 - - [28/Mar/2025 13:02:39] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 13:03:58,233 - INFO - 127.0.0.1 - - [28/Mar/2025 13:03:58] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 13:05:18,007 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 13:05:18,307 - INFO -  * Restarting with stat
+2025-03-28 13:05:21,410 - WARNING -  * Debugger is active!
+2025-03-28 13:05:21,414 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 14:04:19,940 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 14:04:20,562 - INFO -  * Restarting with stat
+2025-03-28 14:04:25,292 - WARNING -  * Debugger is active!
+2025-03-28 14:04:25,300 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 14:04:29,709 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 14:04:29,926 - INFO -  * Restarting with stat
+2025-03-28 14:04:32,799 - WARNING -  * Debugger is active!
+2025-03-28 14:04:32,803 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 14:04:34,022 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-28 14:04:34,280 - INFO -  * Restarting with stat
+2025-03-28 14:04:37,260 - WARNING -  * Debugger is active!
+2025-03-28 14:04:37,264 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 14:05:15,949 - INFO - 127.0.0.1 - - [28/Mar/2025 14:05:15] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:06:33,854 - INFO - 127.0.0.1 - - [28/Mar/2025 14:06:33] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:53:03,237 - INFO - 127.0.0.1 - - [28/Mar/2025 14:53:03] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:56:11,603 - INFO - 127.0.0.1 - - [28/Mar/2025 14:56:11] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:56:30,730 - INFO - 127.0.0.1 - - [28/Mar/2025 14:56:30] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:57:25,252 - INFO - 127.0.0.1 - - [28/Mar/2025 14:57:25] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:58:08,532 - INFO - 127.0.0.1 - - [28/Mar/2025 14:58:08] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 14:59:51,523 - INFO - 127.0.0.1 - - [28/Mar/2025 14:59:51] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 15:00:11,732 - INFO - 127.0.0.1 - - [28/Mar/2025 15:00:11] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 15:00:51,010 - INFO - 127.0.0.1 - - [28/Mar/2025 15:00:51] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 15:31:40,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-28 15:31:40,650 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:31:40,652 - INFO -  * Restarting with stat
+2025-03-28 15:31:43,922 - WARNING -  * Debugger is active!
+2025-03-28 15:31:43,945 - INFO -  * Debugger PIN: 779-649-026
+2025-03-28 15:31:50,094 - INFO - 127.0.0.1 - - [28/Mar/2025 15:31:50] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 15:35:21,152 - INFO - 127.0.0.1 - - [28/Mar/2025 15:35:21] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-28 15:36:27,422 - INFO - 127.0.0.1 - - [28/Mar/2025 15:36:27] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-30 15:59:54,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-30 15:59:54,096 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 15:59:54,100 - INFO -  * Restarting with stat
+2025-03-30 16:00:06,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-30 16:00:06,748 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 16:00:06,748 - INFO -  * Restarting with stat
+2025-03-30 16:00:10,071 - WARNING -  * Debugger is active!
+2025-03-30 16:00:10,071 - INFO -  * Debugger PIN: 779-649-026
+2025-03-30 16:05:48,055 - INFO - 127.0.0.1 - - [30/Mar/2025 16:05:48] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-30 16:07:06,917 - INFO - 127.0.0.1 - - [30/Mar/2025 16:07:06] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 09:06:22,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 09:06:22,545 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 09:06:22,546 - INFO -  * Restarting with stat
+2025-03-31 09:06:25,162 - WARNING -  * Debugger is active!
+2025-03-31 09:06:25,162 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 10:04:23,006 - INFO - 127.0.0.1 - - [31/Mar/2025 10:04:23] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 10:15:56,017 - INFO - 127.0.0.1 - - [31/Mar/2025 10:15:56] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 10:16:34,300 - INFO - 127.0.0.1 - - [31/Mar/2025 10:16:34] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 10:55:04,489 - INFO - 127.0.0.1 - - [31/Mar/2025 10:55:04] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 10:59:00,377 - INFO - 127.0.0.1 - - [31/Mar/2025 10:59:00] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:01:21,767 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:01:22,837 - INFO -  * Restarting with stat
+2025-03-31 11:01:40,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:01:40,049 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:01:40,049 - INFO -  * Restarting with stat
+2025-03-31 11:01:42,835 - WARNING -  * Debugger is active!
+2025-03-31 11:01:42,841 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:02:09,367 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:02:09,744 - INFO -  * Restarting with stat
+2025-03-31 11:02:13,194 - WARNING -  * Debugger is active!
+2025-03-31 11:02:13,213 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:02:34,773 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:02:35,193 - INFO -  * Restarting with stat
+2025-03-31 11:02:38,576 - WARNING -  * Debugger is active!
+2025-03-31 11:02:38,584 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:02:49,303 - INFO - 127.0.0.1 - - [31/Mar/2025 11:02:49] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:11:34,811 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:11:35,350 - INFO -  * Restarting with stat
+2025-03-31 11:11:44,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:11:44,221 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:11:44,225 - INFO -  * Restarting with stat
+2025-03-31 11:11:47,153 - WARNING -  * Debugger is active!
+2025-03-31 11:11:47,164 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:12:08,151 - INFO - 127.0.0.1 - - [31/Mar/2025 11:12:08] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:13:27,952 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:13:28,307 - INFO -  * Restarting with stat
+2025-03-31 11:14:02,984 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:14:02,984 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:14:02,988 - INFO -  * Restarting with stat
+2025-03-31 11:14:06,065 - WARNING -  * Debugger is active!
+2025-03-31 11:14:06,071 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:14:10,672 - INFO - 127.0.0.1 - - [31/Mar/2025 11:14:10] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:15:55,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:15:55,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:15:55,133 - INFO -  * Restarting with stat
+2025-03-31 11:15:58,303 - WARNING -  * Debugger is active!
+2025-03-31 11:15:58,303 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:16:05,235 - INFO - 127.0.0.1 - - [31/Mar/2025 11:16:05] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:18:25,342 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:18:25,612 - INFO -  * Restarting with stat
+2025-03-31 11:18:29,050 - WARNING -  * Debugger is active!
+2025-03-31 11:18:29,063 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:18:48,378 - INFO - 127.0.0.1 - - [31/Mar/2025 11:18:48] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:19:54,705 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:19:55,300 - INFO -  * Restarting with stat
+2025-03-31 11:19:59,017 - WARNING -  * Debugger is active!
+2025-03-31 11:19:59,021 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:20:15,218 - INFO - 127.0.0.1 - - [31/Mar/2025 11:20:15] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:20:32,290 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:20:32,624 - INFO -  * Restarting with stat
+2025-03-31 11:20:36,631 - WARNING -  * Debugger is active!
+2025-03-31 11:20:36,636 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:20:46,314 - INFO - 127.0.0.1 - - [31/Mar/2025 11:20:46] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:21:49,568 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:21:49,859 - INFO -  * Restarting with stat
+2025-03-31 11:21:53,487 - WARNING -  * Debugger is active!
+2025-03-31 11:21:53,492 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:22:02,876 - INFO - 127.0.0.1 - - [31/Mar/2025 11:22:02] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:23:05,737 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:23:06,027 - INFO -  * Restarting with stat
+2025-03-31 11:23:09,381 - WARNING -  * Debugger is active!
+2025-03-31 11:23:09,381 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:23:10,650 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:23:10,910 - INFO -  * Restarting with stat
+2025-03-31 11:23:14,212 - WARNING -  * Debugger is active!
+2025-03-31 11:23:14,218 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:23:20,077 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:23:20,496 - INFO -  * Restarting with stat
+2025-03-31 11:23:23,944 - WARNING -  * Debugger is active!
+2025-03-31 11:23:23,947 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:24:37,970 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:24:38,567 - INFO -  * Restarting with stat
+2025-03-31 11:24:42,109 - ERROR - SQL Agent Init Error: local variable 'custom_message' referenced before assignment
+2025-03-31 11:24:49,622 - ERROR - SQL Agent Init Error: local variable 'custom_message' referenced before assignment
+2025-03-31 11:25:17,321 - ERROR - SQL Agent Init Error: local variable 'custom_message' referenced before assignment
+2025-03-31 11:25:34,378 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:25:34,378 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:25:34,381 - INFO -  * Restarting with stat
+2025-03-31 11:25:37,322 - WARNING -  * Debugger is active!
+2025-03-31 11:25:37,338 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:25:46,918 - INFO - 127.0.0.1 - - [31/Mar/2025 11:25:46] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:27:21,801 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:27:22,196 - INFO -  * Restarting with stat
+2025-03-31 11:27:25,596 - WARNING -  * Debugger is active!
+2025-03-31 11:27:25,606 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:35:48,629 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:35:49,108 - INFO -  * Restarting with stat
+2025-03-31 11:36:43,329 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:36:43,329 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:36:43,329 - INFO -  * Restarting with stat
+2025-03-31 11:36:46,961 - WARNING -  * Debugger is active!
+2025-03-31 11:36:46,994 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:37:05,898 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:37:06,198 - INFO -  * Restarting with stat
+2025-03-31 11:37:09,578 - WARNING -  * Debugger is active!
+2025-03-31 11:37:09,587 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:37:24,518 - INFO - 127.0.0.1 - - [31/Mar/2025 11:37:24] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:37:45,838 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:37:46,205 - INFO -  * Restarting with stat
+2025-03-31 11:37:49,432 - WARNING -  * Debugger is active!
+2025-03-31 11:37:49,449 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:38:41,615 - INFO - 127.0.0.1 - - [31/Mar/2025 11:38:41] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:38:51,030 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:38:51,575 - INFO -  * Restarting with stat
+2025-03-31 11:38:55,141 - WARNING -  * Debugger is active!
+2025-03-31 11:38:55,148 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:39:01,174 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:39:01,440 - INFO -  * Restarting with stat
+2025-03-31 11:39:05,120 - WARNING -  * Debugger is active!
+2025-03-31 11:39:05,127 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:39:55,049 - INFO - 127.0.0.1 - - [31/Mar/2025 11:39:55] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:40:31,637 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:40:31,902 - INFO -  * Restarting with stat
+2025-03-31 11:40:35,265 - WARNING -  * Debugger is active!
+2025-03-31 11:40:35,272 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:42:05,833 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:42:06,193 - INFO -  * Restarting with stat
+2025-03-31 11:42:09,531 - WARNING -  * Debugger is active!
+2025-03-31 11:42:09,534 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:42:25,315 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:42:25,552 - INFO -  * Restarting with stat
+2025-03-31 11:42:28,496 - WARNING -  * Debugger is active!
+2025-03-31 11:42:28,498 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:42:36,364 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:42:36,705 - INFO -  * Restarting with stat
+2025-03-31 11:42:39,186 - ERROR - SQL Agent Init Error: name 'db' is not defined
+2025-03-31 11:42:54,123 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:42:54,124 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:42:54,127 - INFO -  * Restarting with stat
+2025-03-31 11:42:57,334 - WARNING -  * Debugger is active!
+2025-03-31 11:42:57,337 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:43:31,924 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:43:32,300 - INFO -  * Restarting with stat
+2025-03-31 11:43:36,055 - WARNING -  * Debugger is active!
+2025-03-31 11:43:36,060 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:43:58,312 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:43:58,641 - INFO -  * Restarting with stat
+2025-03-31 11:44:01,834 - WARNING -  * Debugger is active!
+2025-03-31 11:44:01,839 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:44:22,205 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:44:22,822 - INFO -  * Restarting with stat
+2025-03-31 11:44:25,745 - ERROR - SQL Agent Init Error: 
+2025-03-31 11:44:33,586 - ERROR - SQL Agent Init Error: 
+2025-03-31 11:44:45,840 - ERROR - SQL Agent Init Error: 'input'
+2025-03-31 11:45:04,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-03-31 11:45:04,685 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:45:04,687 - INFO -  * Restarting with stat
+2025-03-31 11:45:07,941 - WARNING -  * Debugger is active!
+2025-03-31 11:45:07,950 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:46:15,152 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:46:15,579 - INFO -  * Restarting with stat
+2025-03-31 11:46:18,828 - WARNING -  * Debugger is active!
+2025-03-31 11:46:18,831 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:46:32,815 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:46:33,714 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:46:34,571 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:46:35,452 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:46:35,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-31 11:46:35,564 - INFO - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2025-03-31 11:46:46,546 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:46:46,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-31 11:46:46,640 - INFO - Retrying request to /openai/v1/chat/completions in 19.000000 seconds
+2025-03-31 11:47:06,539 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:47:06,539 - INFO - 127.0.0.1 - - [31/Mar/2025 11:47:06] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:47:31,314 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:47:31,675 - INFO -  * Restarting with stat
+2025-03-31 11:47:35,506 - WARNING -  * Debugger is active!
+2025-03-31 11:47:35,512 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:47:52,169 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:47:52,794 - INFO -  * Restarting with stat
+2025-03-31 11:47:55,721 - WARNING -  * Debugger is active!
+2025-03-31 11:47:55,724 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:47:56,939 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:47:57,446 - INFO -  * Restarting with stat
+2025-03-31 11:48:00,827 - WARNING -  * Debugger is active!
+2025-03-31 11:48:00,827 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:48:07,851 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:48:08,307 - INFO -  * Restarting with stat
+2025-03-31 11:48:10,923 - WARNING -  * Debugger is active!
+2025-03-31 11:48:10,923 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:48:19,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:48:20,439 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:48:20,439 - INFO - 127.0.0.1 - - [31/Mar/2025 11:48:20] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:49:15,369 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:49:15,670 - INFO -  * Restarting with stat
+2025-03-31 11:49:18,573 - WARNING -  * Debugger is active!
+2025-03-31 11:49:18,577 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:49:19,830 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:49:20,098 - INFO -  * Restarting with stat
+2025-03-31 11:49:22,492 - WARNING -  * Debugger is active!
+2025-03-31 11:49:22,495 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:49:28,402 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:49:28,723 - INFO -  * Restarting with stat
+2025-03-31 11:49:31,654 - WARNING -  * Debugger is active!
+2025-03-31 11:49:31,658 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:49:41,074 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:49:41,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:49:41,937 - INFO - 127.0.0.1 - - [31/Mar/2025 11:49:41] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:49:59,920 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:50:00,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:50:00,770 - INFO - 127.0.0.1 - - [31/Mar/2025 11:50:00] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:50:27,642 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:27,990 - INFO -  * Restarting with stat
+2025-03-31 11:50:30,864 - WARNING -  * Debugger is active!
+2025-03-31 11:50:30,871 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:32,156 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:32,433 - INFO -  * Restarting with stat
+2025-03-31 11:50:35,106 - WARNING -  * Debugger is active!
+2025-03-31 11:50:35,110 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:36,460 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:36,763 - INFO -  * Restarting with stat
+2025-03-31 11:50:39,403 - WARNING -  * Debugger is active!
+2025-03-31 11:50:39,407 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:42,819 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:43,159 - INFO -  * Restarting with stat
+2025-03-31 11:50:46,097 - WARNING -  * Debugger is active!
+2025-03-31 11:50:46,097 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:47,316 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:47,591 - INFO -  * Restarting with stat
+2025-03-31 11:50:50,255 - WARNING -  * Debugger is active!
+2025-03-31 11:50:50,258 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:55,204 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:55,544 - INFO -  * Restarting with stat
+2025-03-31 11:50:58,187 - WARNING -  * Debugger is active!
+2025-03-31 11:50:58,203 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:50:59,438 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:50:59,872 - INFO -  * Restarting with stat
+2025-03-31 11:51:02,639 - WARNING -  * Debugger is active!
+2025-03-31 11:51:02,653 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:03,881 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:04,140 - INFO -  * Restarting with stat
+2025-03-31 11:51:06,489 - WARNING -  * Debugger is active!
+2025-03-31 11:51:06,494 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:09,007 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:09,390 - INFO -  * Restarting with stat
+2025-03-31 11:51:12,278 - WARNING -  * Debugger is active!
+2025-03-31 11:51:12,286 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:14,655 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:14,918 - INFO -  * Restarting with stat
+2025-03-31 11:51:17,553 - WARNING -  * Debugger is active!
+2025-03-31 11:51:17,571 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:24,475 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:24,844 - INFO -  * Restarting with stat
+2025-03-31 11:51:27,419 - WARNING -  * Debugger is active!
+2025-03-31 11:51:27,423 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:30,986 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:31,271 - INFO -  * Restarting with stat
+2025-03-31 11:51:33,747 - WARNING -  * Debugger is active!
+2025-03-31 11:51:33,753 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:45,459 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:45,860 - INFO -  * Restarting with stat
+2025-03-31 11:51:48,379 - WARNING -  * Debugger is active!
+2025-03-31 11:51:48,399 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:51:54,540 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:51:54,814 - INFO -  * Restarting with stat
+2025-03-31 11:51:57,268 - WARNING -  * Debugger is active!
+2025-03-31 11:51:57,273 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:52:00,652 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:52:00,903 - INFO -  * Restarting with stat
+2025-03-31 11:52:03,455 - WARNING -  * Debugger is active!
+2025-03-31 11:52:03,470 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:52:04,844 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:52:05,087 - INFO -  * Restarting with stat
+2025-03-31 11:52:07,795 - WARNING -  * Debugger is active!
+2025-03-31 11:52:07,799 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 11:52:13,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:52:14,931 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 11:52:14,931 - INFO - 127.0.0.1 - - [31/Mar/2025 11:52:14] "POST /ask_sql HTTP/1.1" 200 -
+2025-03-31 11:52:43,248 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-03-31 11:52:43,540 - INFO -  * Restarting with stat
+2025-03-31 11:52:46,514 - WARNING -  * Debugger is active!
+2025-03-31 11:52:46,521 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 17:21:04,959 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\httpx\\__init__.py', reloading
+2025-03-31 17:21:06,515 - INFO -  * Restarting with stat
+2025-03-31 17:21:10,337 - WARNING -  * Debugger is active!
+2025-03-31 17:21:10,341 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 09:07:22,518 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-01 09:07:22,518 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 09:07:22,524 - INFO -  * Restarting with stat
+2025-04-01 09:07:25,577 - WARNING -  * Debugger is active!
+2025-04-01 09:07:25,583 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:25:17,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:25:18,396 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:25:18,396 - INFO - 127.0.0.1 - - [01/Apr/2025 10:25:18] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-01 10:27:22,992 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:27:23,860 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:27:23,872 - INFO - 127.0.0.1 - - [01/Apr/2025 10:27:23] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-01 10:31:54,109 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:31:54,549 - INFO -  * Restarting with stat
+2025-04-01 10:31:59,250 - WARNING -  * Debugger is active!
+2025-04-01 10:31:59,250 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:32:11,727 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:32:12,025 - INFO -  * Restarting with stat
+2025-04-01 10:32:14,356 - WARNING -  * Debugger is active!
+2025-04-01 10:32:14,369 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:32:23,446 - ERROR - SQL Query Execution Error: 'CompiledStateGraph' object has no attribute 'llm'
+2025-04-01 10:32:23,502 - INFO - 127.0.0.1 - - [01/Apr/2025 10:32:23] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-01 10:33:31,244 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:33:31,484 - INFO -  * Restarting with stat
+2025-04-01 10:33:33,799 - WARNING -  * Debugger is active!
+2025-04-01 10:33:33,815 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:33:35,003 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:33:35,311 - INFO -  * Restarting with stat
+2025-04-01 10:33:37,582 - WARNING -  * Debugger is active!
+2025-04-01 10:33:37,646 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:33:43,846 - ERROR - SQL Query Execution Error: 'CompiledStateGraph' object has no attribute 'llm'
+2025-04-01 10:33:43,965 - INFO - 127.0.0.1 - - [01/Apr/2025 10:33:43] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-01 10:34:45,747 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:34:45,983 - INFO -  * Restarting with stat
+2025-04-01 10:34:48,569 - WARNING -  * Debugger is active!
+2025-04-01 10:34:48,575 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:34:52,098 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:34:52,357 - INFO -  * Restarting with stat
+2025-04-01 10:34:54,551 - WARNING -  * Debugger is active!
+2025-04-01 10:34:54,554 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:34:58,182 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:34:58,421 - INFO -  * Restarting with stat
+2025-04-01 10:35:00,923 - WARNING -  * Debugger is active!
+2025-04-01 10:35:00,925 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:35:14,198 - ERROR - SQL Query Execution Error: 'SQLAgentWrapper' object has no attribute 'llm'
+2025-04-01 10:35:14,311 - INFO - 127.0.0.1 - - [01/Apr/2025 10:35:14] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-01 10:35:24,238 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-01 10:35:24,468 - INFO -  * Restarting with stat
+2025-04-01 10:35:27,118 - WARNING -  * Debugger is active!
+2025-04-01 10:35:27,118 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:35:33,775 - INFO - 127.0.0.1 - - [01/Apr/2025 10:35:33] "[35m[1mPOST /ask_sql HTTP/1.1[0m" 500 -
+2025-04-01 10:35:48,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-01 10:35:48,053 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 10:35:48,053 - INFO -  * Restarting with stat
+2025-04-01 10:35:50,027 - WARNING -  * Debugger is active!
+2025-04-01 10:35:50,028 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 10:35:59,595 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:36:00,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 10:36:00,668 - INFO - 127.0.0.1 - - [01/Apr/2025 10:36:00] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 09:06:30,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-02 09:06:30,994 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 09:06:31,001 - INFO -  * Restarting with stat
+2025-04-02 09:06:33,164 - WARNING -  * Debugger is active!
+2025-04-02 09:06:33,168 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:36:16,391 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:36:17,281 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:36:17,283 - INFO - 127.0.0.1 - - [02/Apr/2025 15:36:17] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:36:41,988 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:36:42,826 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:36:42,826 - INFO - 127.0.0.1 - - [02/Apr/2025 15:36:42] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:37:11,864 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:37:14,012 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:37:14,022 - INFO - 127.0.0.1 - - [02/Apr/2025 15:37:14] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:37:37,067 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:37:37,067 - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2025-04-02 15:37:46,899 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:37:46,996 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:37:46,996 - INFO - Retrying request to /openai/v1/chat/completions in 20.000000 seconds
+2025-04-02 15:38:07,851 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:38:07,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:38:07,909 - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2025-04-02 15:38:24,523 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:38:24,601 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:38:24,601 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-04-02 15:38:31,551 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:38:31,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:38:31,660 - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2025-04-02 15:38:54,623 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:38:54,623 - INFO - 127.0.0.1 - - [02/Apr/2025 15:38:54] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:39:42,752 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:39:43,207 - INFO -  * Restarting with stat
+2025-04-02 15:39:48,588 - WARNING -  * Debugger is active!
+2025-04-02 15:39:48,589 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:39:50,958 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:39:51,132 - INFO -  * Restarting with stat
+2025-04-02 15:39:53,382 - WARNING -  * Debugger is active!
+2025-04-02 15:39:53,386 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:39:58,090 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:39:58,374 - INFO -  * Restarting with stat
+2025-04-02 15:40:01,014 - WARNING -  * Debugger is active!
+2025-04-02 15:40:01,020 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:40:02,279 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:40:02,628 - INFO -  * Restarting with stat
+2025-04-02 15:40:05,073 - WARNING -  * Debugger is active!
+2025-04-02 15:40:05,080 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:40:16,634 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:40:16,831 - INFO -  * Restarting with stat
+2025-04-02 15:40:19,529 - WARNING -  * Debugger is active!
+2025-04-02 15:40:19,533 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:40:26,859 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:40:27,139 - INFO -  * Restarting with stat
+2025-04-02 15:40:29,685 - WARNING -  * Debugger is active!
+2025-04-02 15:40:29,690 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:40:37,405 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:40:38,261 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:40:39,129 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:40:39,129 - INFO - 127.0.0.1 - - [02/Apr/2025 15:40:39] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:40:49,071 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:40:49,176 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:40:49,183 - INFO - Retrying request to /openai/v1/chat/completions in 19.000000 seconds
+2025-04-02 15:41:08,988 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:41:09,079 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:41:09,079 - INFO - Retrying request to /openai/v1/chat/completions in 20.000000 seconds
+2025-04-02 15:41:30,100 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:41:30,106 - INFO - 127.0.0.1 - - [02/Apr/2025 15:41:30] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:42:07,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:42:07,452 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:42:07,452 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-04-02 15:42:10,697 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:42:10,697 - INFO - 127.0.0.1 - - [02/Apr/2025 15:42:10] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:42:26,927 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:42:27,158 - INFO -  * Restarting with stat
+2025-04-02 15:42:29,462 - WARNING -  * Debugger is active!
+2025-04-02 15:42:29,471 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:42:31,735 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:42:31,935 - INFO -  * Restarting with stat
+2025-04-02 15:42:34,084 - WARNING -  * Debugger is active!
+2025-04-02 15:42:34,084 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:43:22,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:43:23,001 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:43:23,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:43:23,861 - INFO - 127.0.0.1 - - [02/Apr/2025 15:43:23] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:45:35,031 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:45:35,411 - INFO -  * Restarting with stat
+2025-04-02 15:45:38,206 - WARNING -  * Debugger is active!
+2025-04-02 15:45:38,215 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:47:48,962 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:47:50,103 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:47:50,108 - INFO - 127.0.0.1 - - [02/Apr/2025 15:47:50] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:49:02,842 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:03,666 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:03,666 - INFO - 127.0.0.1 - - [02/Apr/2025 15:49:03] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:52:05,906 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:06,714 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:06,714 - INFO - 127.0.0.1 - - [02/Apr/2025 15:52:06] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:52:35,939 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:36,168 - INFO -  * Restarting with stat
+2025-04-02 15:52:38,855 - WARNING -  * Debugger is active!
+2025-04-02 15:52:38,858 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:52:40,083 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:40,297 - INFO -  * Restarting with stat
+2025-04-02 15:52:42,597 - WARNING -  * Debugger is active!
+2025-04-02 15:52:42,603 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:52:43,983 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:44,256 - INFO -  * Restarting with stat
+2025-04-02 15:52:46,779 - WARNING -  * Debugger is active!
+2025-04-02 15:52:46,788 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:52:49,135 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:49,349 - INFO -  * Restarting with stat
+2025-04-02 15:52:51,933 - WARNING -  * Debugger is active!
+2025-04-02 15:52:51,933 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:52:54,206 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:54,477 - INFO -  * Restarting with stat
+2025-04-02 15:52:56,963 - WARNING -  * Debugger is active!
+2025-04-02 15:52:56,968 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:52:58,327 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:52:58,609 - INFO -  * Restarting with stat
+2025-04-02 15:53:01,308 - WARNING -  * Debugger is active!
+2025-04-02 15:53:01,312 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:53:02,521 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:53:02,771 - INFO -  * Restarting with stat
+2025-04-02 15:53:05,188 - WARNING -  * Debugger is active!
+2025-04-02 15:53:05,193 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:53:09,800 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:53:10,027 - INFO -  * Restarting with stat
+2025-04-02 15:53:12,594 - WARNING -  * Debugger is active!
+2025-04-02 15:53:12,599 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:53:19,749 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:53:20,014 - INFO -  * Restarting with stat
+2025-04-02 15:53:22,232 - WARNING -  * Debugger is active!
+2025-04-02 15:53:22,232 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:53:30,478 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:31,597 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:31,597 - INFO - 127.0.0.1 - - [02/Apr/2025 15:53:31] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:53:45,461 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-02 15:53:45,702 - INFO -  * Restarting with stat
+2025-04-02 15:53:48,029 - WARNING -  * Debugger is active!
+2025-04-02 15:53:48,033 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 15:54:00,348 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:02,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:02,875 - INFO - 127.0.0.1 - - [02/Apr/2025 15:54:02] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:54:31,297 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:32,228 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:32,228 - INFO - 127.0.0.1 - - [02/Apr/2025 15:54:32] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 15:54:52,350 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:52,439 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:54:52,439 - INFO - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2025-04-02 15:55:05,335 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:05,474 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-02 15:55:05,474 - INFO - Retrying request to /openai/v1/chat/completions in 21.000000 seconds
+2025-04-02 15:55:27,337 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:27,339 - INFO - 127.0.0.1 - - [02/Apr/2025 15:55:27] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-02 20:10:43,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-02 20:10:43,145 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 20:10:43,148 - INFO -  * Restarting with stat
+2025-04-02 20:10:47,189 - WARNING -  * Debugger is active!
+2025-04-02 20:10:47,189 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 15:21:29,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-03 15:21:29,936 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 15:21:29,939 - INFO -  * Restarting with stat
+2025-04-03 15:21:31,995 - WARNING -  * Debugger is active!
+2025-04-03 15:21:31,995 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 15:21:37,288 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:21:38,738 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:21:38,744 - INFO - 127.0.0.1 - - [03/Apr/2025 15:21:38] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 15:22:16,604 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:17,877 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:17,882 - INFO - 127.0.0.1 - - [03/Apr/2025 15:22:17] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 15:22:43,829 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:44,684 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:44,816 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-03 15:22:44,816 - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2025-04-03 15:22:55,060 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:55,061 - INFO - 127.0.0.1 - - [03/Apr/2025 15:22:55] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 15:23:23,512 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:23:23,649 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-03 15:23:23,650 - INFO - Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2025-04-03 15:23:38,587 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:23:38,594 - INFO - 127.0.0.1 - - [03/Apr/2025 15:23:38] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:03:34,256 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:03:35,252 - INFO -  * Restarting with stat
+2025-04-03 17:03:39,075 - WARNING -  * Debugger is active!
+2025-04-03 17:03:39,086 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:03:44,777 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:03:45,110 - INFO -  * Restarting with stat
+2025-04-03 17:03:48,336 - WARNING -  * Debugger is active!
+2025-04-03 17:03:48,348 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:03:49,610 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:03:49,941 - INFO -  * Restarting with stat
+2025-04-03 17:03:52,662 - WARNING -  * Debugger is active!
+2025-04-03 17:03:52,666 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:03:53,913 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:03:54,097 - INFO -  * Restarting with stat
+2025-04-03 17:03:56,708 - WARNING -  * Debugger is active!
+2025-04-03 17:03:56,711 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:03:59,138 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:03:59,403 - INFO -  * Restarting with stat
+2025-04-03 17:04:01,826 - WARNING -  * Debugger is active!
+2025-04-03 17:04:01,845 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:04,212 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:04,429 - INFO -  * Restarting with stat
+2025-04-03 17:04:06,634 - WARNING -  * Debugger is active!
+2025-04-03 17:04:06,639 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:07,822 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:08,076 - INFO -  * Restarting with stat
+2025-04-03 17:04:10,238 - WARNING -  * Debugger is active!
+2025-04-03 17:04:10,244 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:11,433 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:11,719 - INFO -  * Restarting with stat
+2025-04-03 17:04:14,626 - WARNING -  * Debugger is active!
+2025-04-03 17:04:14,630 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:17,000 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:17,172 - INFO -  * Restarting with stat
+2025-04-03 17:04:19,848 - WARNING -  * Debugger is active!
+2025-04-03 17:04:19,852 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:27,082 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:27,534 - INFO -  * Restarting with stat
+2025-04-03 17:04:30,163 - WARNING -  * Debugger is active!
+2025-04-03 17:04:30,167 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:31,411 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:31,607 - INFO -  * Restarting with stat
+2025-04-03 17:04:33,879 - WARNING -  * Debugger is active!
+2025-04-03 17:04:33,879 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:34,014 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:34,195 - INFO -  * Restarting with stat
+2025-04-03 17:04:36,370 - WARNING -  * Debugger is active!
+2025-04-03 17:04:36,374 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:42,183 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:42,404 - INFO -  * Restarting with stat
+2025-04-03 17:04:44,862 - WARNING -  * Debugger is active!
+2025-04-03 17:04:44,881 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:04:46,094 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:04:46,330 - INFO -  * Restarting with stat
+2025-04-03 17:04:48,762 - WARNING -  * Debugger is active!
+2025-04-03 17:04:48,766 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:05:23,714 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:05:24,145 - INFO -  * Restarting with stat
+2025-04-03 17:05:26,997 - WARNING -  * Debugger is active!
+2025-04-03 17:05:26,999 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:05:28,215 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:05:28,509 - INFO -  * Restarting with stat
+2025-04-03 17:05:30,732 - WARNING -  * Debugger is active!
+2025-04-03 17:05:30,749 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:05:43,375 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:05:43,651 - INFO -  * Restarting with stat
+2025-04-03 17:05:46,545 - WARNING -  * Debugger is active!
+2025-04-03 17:05:46,549 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:05:47,793 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:05:48,061 - INFO -  * Restarting with stat
+2025-04-03 17:05:50,475 - WARNING -  * Debugger is active!
+2025-04-03 17:05:50,497 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:06:05,388 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:06:05,713 - INFO -  * Restarting with stat
+2025-04-03 17:06:08,047 - WARNING -  * Debugger is active!
+2025-04-03 17:06:08,047 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:06:22,079 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:06:22,331 - INFO -  * Restarting with stat
+2025-04-03 17:06:24,574 - WARNING -  * Debugger is active!
+2025-04-03 17:06:24,582 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:06:24,701 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:06:24,936 - INFO -  * Restarting with stat
+2025-04-03 17:06:27,134 - WARNING -  * Debugger is active!
+2025-04-03 17:06:27,148 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:08:13,697 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:08:14,650 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:08:15,760 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:08:15,763 - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:15] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:09:16,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:09:18,291 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:09:18,301 - INFO - 127.0.0.1 - - [03/Apr/2025 17:09:18] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:19:03,428 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:19:04,267 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:19:05,217 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:19:05,236 - INFO - 127.0.0.1 - - [03/Apr/2025 17:19:05] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:19:44,345 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:19:44,821 - INFO -  * Restarting with stat
+2025-04-03 17:19:47,783 - WARNING -  * Debugger is active!
+2025-04-03 17:19:47,785 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:19:50,159 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:19:50,367 - INFO -  * Restarting with stat
+2025-04-03 17:19:52,553 - WARNING -  * Debugger is active!
+2025-04-03 17:19:52,556 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:19:54,910 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:19:55,198 - INFO -  * Restarting with stat
+2025-04-03 17:19:57,701 - WARNING -  * Debugger is active!
+2025-04-03 17:19:57,705 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:19:58,898 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:19:59,134 - INFO -  * Restarting with stat
+2025-04-03 17:20:01,498 - WARNING -  * Debugger is active!
+2025-04-03 17:20:01,502 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:20:24,232 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:20:25,193 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:20:25,193 - INFO - 127.0.0.1 - - [03/Apr/2025 17:20:25] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:20:54,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:20:55,490 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:20:55,499 - INFO - 127.0.0.1 - - [03/Apr/2025 17:20:55] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:21:12,928 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:13,160 - INFO -  * Restarting with stat
+2025-04-03 17:21:15,596 - WARNING -  * Debugger is active!
+2025-04-03 17:21:15,599 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:21:20,120 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:20,381 - INFO -  * Restarting with stat
+2025-04-03 17:21:22,743 - WARNING -  * Debugger is active!
+2025-04-03 17:21:22,748 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:21:29,776 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:30,026 - INFO -  * Restarting with stat
+2025-04-03 17:21:32,254 - WARNING -  * Debugger is active!
+2025-04-03 17:21:32,267 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:21:42,448 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:42,707 - INFO -  * Restarting with stat
+2025-04-03 17:21:44,998 - WARNING -  * Debugger is active!
+2025-04-03 17:21:45,002 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:21:50,714 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:50,941 - INFO -  * Restarting with stat
+2025-04-03 17:21:53,273 - WARNING -  * Debugger is active!
+2025-04-03 17:21:53,277 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:21:59,451 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:21:59,705 - INFO -  * Restarting with stat
+2025-04-03 17:22:01,993 - WARNING -  * Debugger is active!
+2025-04-03 17:22:02,011 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:22:05,504 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:22:05,716 - INFO -  * Restarting with stat
+2025-04-03 17:22:08,186 - WARNING -  * Debugger is active!
+2025-04-03 17:22:08,193 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:22:12,898 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:22:13,134 - INFO -  * Restarting with stat
+2025-04-03 17:22:15,644 - WARNING -  * Debugger is active!
+2025-04-03 17:22:15,644 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:22:21,357 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:22:21,549 - INFO -  * Restarting with stat
+2025-04-03 17:22:23,785 - WARNING -  * Debugger is active!
+2025-04-03 17:22:23,787 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:22:27,526 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:22:28,022 - INFO -  * Restarting with stat
+2025-04-03 17:22:30,444 - WARNING -  * Debugger is active!
+2025-04-03 17:22:30,453 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:22:38,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:22:39,882 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:22:39,882 - INFO - 127.0.0.1 - - [03/Apr/2025 17:22:39] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:23:05,114 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:23:05,331 - INFO -  * Restarting with stat
+2025-04-03 17:23:07,942 - WARNING -  * Debugger is active!
+2025-04-03 17:23:07,963 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:23:10,401 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:23:10,844 - INFO -  * Restarting with stat
+2025-04-03 17:23:13,092 - WARNING -  * Debugger is active!
+2025-04-03 17:23:13,097 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:23:23,905 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:23:24,870 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:23:24,870 - INFO - 127.0.0.1 - - [03/Apr/2025 17:23:24] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:31:03,525 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\FoundryChatbot\\backend\\agent_runner\\sql_agent.py', reloading
+2025-04-03 17:31:03,815 - INFO -  * Restarting with stat
+2025-04-03 17:31:06,564 - ERROR - SQL Agent Init Error: name 'schema_description' is not defined
+2025-04-03 17:31:19,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-03 17:31:19,222 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 17:31:19,225 - INFO -  * Restarting with stat
+2025-04-03 17:31:21,415 - WARNING -  * Debugger is active!
+2025-04-03 17:31:21,417 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 17:31:36,258 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:31:37,197 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:31:37,207 - INFO - 127.0.0.1 - - [03/Apr/2025 17:31:37] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:37:31,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:37:34,883 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:37:34,883 - INFO - 127.0.0.1 - - [03/Apr/2025 17:37:34] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:38:27,859 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:38:28,723 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:38:28,733 - INFO - 127.0.0.1 - - [03/Apr/2025 17:38:28] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:38:56,338 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:38:57,229 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:38:57,236 - INFO - 127.0.0.1 - - [03/Apr/2025 17:38:57] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:39:29,773 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:39:30,599 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:39:30,599 - INFO - 127.0.0.1 - - [03/Apr/2025 17:39:30] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:39:55,494 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:39:55,718 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-03 17:39:55,725 - INFO - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2025-04-03 17:40:09,800 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:40:09,800 - INFO - 127.0.0.1 - - [03/Apr/2025 17:40:09] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-03 17:55:52,324 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:55:53,215 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:55:54,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:55:54,167 - INFO - 127.0.0.1 - - [03/Apr/2025 17:55:54] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-04 09:03:45,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-04 09:03:45,024 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:03:45,024 - INFO -  * Restarting with stat
+2025-04-04 09:03:49,093 - WARNING -  * Debugger is active!
+2025-04-04 09:03:49,099 - INFO -  * Debugger PIN: 779-649-026
+2025-04-06 12:33:25,527 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-06 12:33:25,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 12:33:25,531 - INFO -  * Restarting with stat
+2025-04-06 12:33:27,640 - WARNING -  * Debugger is active!
+2025-04-06 12:33:27,644 - INFO -  * Debugger PIN: 779-649-026
+2025-04-06 12:36:26,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:36:27,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:36:28,680 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:36:29,617 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:36:29,631 - INFO - 127.0.0.1 - - [06/Apr/2025 12:36:29] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-06 12:38:27,758 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:38:28,737 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:38:29,695 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 12:38:29,702 - INFO - 127.0.0.1 - - [06/Apr/2025 12:38:29] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-06 16:21:01,836 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 16:21:02,079 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Request Entity Too Large"
+2025-04-06 16:21:02,086 - ERROR - SQL Query Execution Error: Error code: 413 - {'error': {'message': 'Request too large for model `llama3-8b-8192` in organization `org_01jm91jqcxfvzsbvsykkfsgdfk` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 9343, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-04-06 16:21:02,086 - INFO - 127.0.0.1 - - [06/Apr/2025 16:21:02] "POST /ask_sql HTTP/1.1" 200 -
+2025-04-07 09:26:28,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 09:26:29,775 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 09:26:29,787 - INFO - 127.0.0.1 - - [07/Apr/2025 09:26:29] "POST /ask_sql HTTP/1.1" 200 -

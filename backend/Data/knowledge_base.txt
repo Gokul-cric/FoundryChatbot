@@ -1,0 +1,3 @@
+This is a knowledge base file.
+It contains important details about foundry rejection analysis.
+...

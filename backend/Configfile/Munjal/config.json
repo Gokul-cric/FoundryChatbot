@@ -1,0 +1,265 @@
+{
+    "Defectwise sand properties based on fishbone": {
+        "Blow Hole": [
+            "active_clay",
+            "inert_fines ",
+            "moisture",
+            "permeability",
+            "loi",
+            "volatile_matter",
+            "compactibility"
+        ],
+        "Broken Mould": [
+            "compactibility",
+            "moisture",
+            "active_clay",
+            "gcs"
+        ],
+        "Erosion Scab": [
+            "inert_fines ",
+            "moisture",
+            "wet_tensile_strength",
+            "loi",
+            "gfn_afs",
+            "active_clay"
+        ],
+        "Sand Fusion": [
+            "loi",
+            "inert_fines ",
+            "gfn_afs",
+            "moisture",
+            "permeability"
+        ],
+        "Mould Swell": [
+            "inert_fines ",
+            "moisture",
+            "gcs",
+            "compactibility",
+            "active_clay"
+        ],
+        "Sand Inclusion defect": [
+            "inert_fines ",
+            "gcs",
+            "active_clay",
+            "compactibility",
+            "moisture",
+            "temp_of_sand_after_mix"
+        ],
+        "Total rejection": [
+            "active_clay",
+            "gcs",
+            "wet_tensile_strength",
+            "inert_fines ",
+            "moisture",
+            "permeability",
+            "compactibility",
+            "gfn_afs",
+            "loi",
+            "volatile_matter"
+        ]
+    },
+    "defect_for_analysis": "Blow Hole",
+    "defect_mapping": {
+        "Blow Hole": [
+            "blow_hole_foundry_stage",
+            "blow_hole_machining_stage"
+        ],
+        "Broken Mould": [
+            "broken_mould"
+        ],
+        "Erosion Scab": [
+            "erosion_scab",
+            "expansion_scab",
+            "sand_defect_10",
+            "sand_defect_3"
+        ],
+        "Sand Fusion": [
+            "sand_fusion",
+            "sand_defect_1"
+        ],
+        "Mould Swell": [
+            "swelling_oversize_casting",
+            "sand_defect_2"
+        ],
+        "Sand Inclusion defect": [
+            "sanddrop_inclusion_foundry_stage",
+            "sanddrop_inclusion_machining_stage"
+        ],
+        "Total rejection": [
+            "rejection_quantity"
+        ]
+    },
+    "total_produced_qty": "total_quantity_produced",
+    "data_selection": {
+        "reference_period": [
+            "2025-01-01",
+            "2025-01-31"
+        ],
+        "comparison_period": [
+            "2025-01-01",
+            "2025-01-31"
+        ]
+    },
+    "data_sufficiency_check": {
+        "main_data": 1,
+        "ref_data": 1,
+        "comp_data": 1
+    },
+    "group_wise_analysis": true,
+    "component_wise_analysis": false,
+    "group_for_analysis": "All",
+    "component_for_analysis": [
+        "Crank Case ",
+        "Cylinder Block Cast_new pattern",
+        "Cylinder Block _ CMA",
+        "Cylinder Block _ BMG",
+        "Brake Disc _Cav 7:&8: (Model K)",
+        "Disc,FR Brake (Cav 5&6  3&4)_ EFC",
+        "Drum Rear Brake (Cav 5 & 6)_YP8",
+        "Disk RR Brake_Solid - YAD",
+        "Disc, Front Brake,YL8",
+        "Disk FR Brake _Vent -Y9T_Domestic",
+        "Drum RR Brake - YRA",
+        "Disk FR Brake_Vent - YRA",
+        "Disk RR Brake _Solid - YRA",
+        "Disk FR Brake - YJC",
+        "Disk FR Brake - Model L  YAD / YBA",
+        "Disk FR Brake _Vent -Y9T_Export",
+        "Flywheel _ Cav1 & 2_Diesel MT set#1",
+        "Disc-FR-Brake 14\" _Nissan (Cavity 7 & 8 )",
+        "Disc-FR-Brake 13\" _Nissan",
+        "Disk FR Brake, _Jazz (2CT)_Cav. 3 & 4",
+        "Drum Rear Brake _ Jazz (2CT) _ Cav. 3 & 4",
+        "Disk FR Brake _Vent _2VL",
+        "Drum RR Brake _ 2SJ",
+        "DISC FR BRAKE - 2SJ",
+        "Drum RR Brake _ 2UA",
+        "Disc FR Brake  _XBA",
+        "Drum RR Brake  _XBA",
+        "Drum RR Brake _ XBA ABS",
+        "Y9T DISC",
+        "HONDA 2LT DRUM",
+        "Ring_Gotek",
+        "HUB _Sigma",
+        "Brake Disc, (Cav 7,8,9,10)Alto",
+        "Drum RR Brake _Y9T",
+        "Disk FR Brake _ YHB",
+        "Brake drum 14\", Nissan set # 4      Cav. 7 & 8",
+        "M FW J30",
+        "Disk FR Brake - Model L  YAD / YBA"
+    ],
+    "group": {
+        "group_low": [
+            "Crank Case ",
+            "Cylinder Block Cast_new pattern",
+            "Cylinder Block _ CMA",
+            "Cylinder Block _ BMG",
+            "Brake Disc _Cav 7:&8: (Model K)",
+            "Disc,FR Brake (Cav 5&6  3&4)_ EFC",
+            "Drum Rear Brake (Cav 5 & 6)_YP8",
+            "Disk RR Brake_Solid - YAD",
+            "Disc, Front Brake,YL8",
+            "Disk FR Brake _Vent -Y9T_Domestic",
+            "Drum RR Brake - YRA",
+            "Disk FR Brake_Vent - YRA",
+            "Disk RR Brake _Solid - YRA",
+            "Disk FR Brake - YJC",
+            "Disk FR Brake - Model L  YAD / YBA",
+            "Disk FR Brake _Vent -Y9T_Export",
+            "Flywheel _ Cav1 & 2_Diesel MT set#1",
+            "Disc-FR-Brake 14\" _Nissan (Cavity 7 & 8 )",
+            "Disc-FR-Brake 13\" _Nissan",
+            "Disk FR Brake, _Jazz (2CT)_Cav. 3 & 4",
+            "Drum Rear Brake _ Jazz (2CT) _ Cav. 3 & 4",
+            "Disk FR Brake _Vent _2VL",
+            "Drum RR Brake _ 2SJ",
+            "DISC FR BRAKE - 2SJ",
+            "Drum RR Brake _ 2UA",
+            "Disc FR Brake  _XBA",
+            "Drum RR Brake  _XBA",
+            "Drum RR Brake _ XBA ABS",
+            "Y9T DISC",
+            "HONDA 2LT DRUM",
+            "Ring_Gotek",
+            "HUB _Sigma"
+        ],
+        "group_high": [
+            "Brake Disc, (Cav 7,8,9,10)Alto",
+            "Drum RR Brake _Y9T",
+            "Disk FR Brake _ YHB",
+            "Brake drum 14\", Nissan set # 4      Cav. 7 & 8",
+            "M FW J30",
+            "Disk FR Brake - Model L  YAD / YBA"
+        ],
+        "All": [
+            "Crank Case ",
+            "Cylinder Block Cast_new pattern",
+            "Cylinder Block _ CMA",
+            "Cylinder Block _ BMG",
+            "Brake Disc _Cav 7:&8: (Model K)",
+            "Disc,FR Brake (Cav 5&6  3&4)_ EFC",
+            "Drum Rear Brake (Cav 5 & 6)_YP8",
+            "Disk RR Brake_Solid - YAD",
+            "Disc, Front Brake,YL8",
+            "Disk FR Brake _Vent -Y9T_Domestic",
+            "Drum RR Brake - YRA",
+            "Disk FR Brake_Vent - YRA",
+            "Disk RR Brake _Solid - YRA",
+            "Disk FR Brake - YJC",
+            "Disk FR Brake - Model L  YAD / YBA",
+            "Disk FR Brake _Vent -Y9T_Export",
+            "Flywheel _ Cav1 & 2_Diesel MT set#1",
+            "Disc-FR-Brake 14\" _Nissan (Cavity 7 & 8 )",
+            "Disc-FR-Brake 13\" _Nissan",
+            "Disk FR Brake, _Jazz (2CT)_Cav. 3 & 4",
+            "Drum Rear Brake _ Jazz (2CT) _ Cav. 3 & 4",
+            "Disk FR Brake _Vent _2VL",
+            "Drum RR Brake _ 2SJ",
+            "DISC FR BRAKE - 2SJ",
+            "Drum RR Brake _ 2UA",
+            "Disc FR Brake  _XBA",
+            "Drum RR Brake  _XBA",
+            "Drum RR Brake _ XBA ABS",
+            "Y9T DISC",
+            "HONDA 2LT DRUM",
+            "Ring_Gotek",
+            "HUB _Sigma",
+            "Brake Disc, (Cav 7,8,9,10)Alto",
+            "Drum RR Brake _Y9T",
+            "Disk FR Brake _ YHB",
+            "Brake drum 14\", Nissan set # 4      Cav. 7 & 8",
+            "M FW J30",
+            "Disk FR Brake - Model L  YAD / YBA"
+        ]
+    },
+    "figure_configuration": {
+        "dist_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "box_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        },
+        "correlation_plot": {
+            "figsize": [
+                10,
+                7
+            ],
+            "legend_location": "best",
+            "fontsize": 15,
+            "title_fontsize": 15
+        }
+    },
+    "top_parameter": "compactibility"
+}

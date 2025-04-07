@@ -1,0 +1,68 @@
+2025-03-30 15:56:35,343 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-30 15:56:35,343 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-30 15:56:35,364 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-30 15:56:35,364 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-30 15:56:35,463 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-03-30 15:56:35,463 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 15:56:35,463 - INFO -  * Restarting with stat
+2025-03-30 15:56:37,821 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-30 15:56:37,821 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-30 15:56:37,837 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-30 15:56:37,837 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-30 15:56:37,876 - WARNING -  * Debugger is active!
+2025-03-30 15:56:37,888 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 09:05:17,822 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-31 09:05:17,822 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-31 09:05:17,822 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-31 09:05:17,822 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-31 09:05:17,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-03-31 09:05:17,926 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 09:05:17,927 - INFO -  * Restarting with stat
+2025-03-31 09:05:19,809 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-31 09:05:19,809 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-31 09:05:19,820 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-31 09:05:19,820 - DEBUG - load_verify_locations cafile='C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\certifi\\cacert.pem'
+2025-03-31 09:05:19,850 - WARNING -  * Debugger is active!
+2025-03-31 09:05:19,861 - INFO -  * Debugger PIN: 779-649-026
+2025-03-31 17:21:04,911 - INFO -  * Detected change in 'C:\\Users\\GOKUL\\Desktop\\langgraph_env\\lib\\site-packages\\httpx\\_exceptions.py', reloading
+2025-03-31 17:21:06,234 - INFO -  * Restarting with stat
+2025-03-31 17:21:10,029 - WARNING -  * Debugger is active!
+2025-03-31 17:21:10,038 - INFO -  * Debugger PIN: 779-649-026
+2025-04-01 09:04:34,966 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-01 09:04:34,969 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 09:04:34,973 - INFO -  * Restarting with stat
+2025-04-01 09:04:38,841 - WARNING -  * Debugger is active!
+2025-04-01 09:04:38,854 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 09:03:53,283 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-02 09:03:53,284 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 09:03:53,284 - INFO -  * Restarting with stat
+2025-04-02 09:03:59,196 - WARNING -  * Debugger is active!
+2025-04-02 09:03:59,204 - INFO -  * Debugger PIN: 779-649-026
+2025-04-02 20:11:13,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-02 20:11:13,357 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 20:11:13,357 - INFO -  * Restarting with stat
+2025-04-02 20:11:15,314 - WARNING -  * Debugger is active!
+2025-04-02 20:11:15,315 - INFO -  * Debugger PIN: 779-649-026
+2025-04-03 09:03:46,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-03 09:03:46,350 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 09:03:46,352 - INFO -  * Restarting with stat
+2025-04-03 09:03:54,828 - WARNING -  * Debugger is active!
+2025-04-03 09:03:54,838 - INFO -  * Debugger PIN: 779-649-026
+2025-04-04 09:04:51,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-04 09:04:51,437 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:04:51,444 - INFO -  * Restarting with stat
+2025-04-04 09:04:57,331 - WARNING -  * Debugger is active!
+2025-04-04 09:04:57,344 - INFO -  * Debugger PIN: 779-649-026
+2025-04-06 12:17:48,585 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-04-06 12:17:48,585 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 12:17:48,587 - INFO -  * Restarting with stat
+2025-04-06 12:17:50,768 - WARNING -  * Debugger is active!
+2025-04-06 12:17:50,777 - INFO -  * Debugger PIN: 779-649-026

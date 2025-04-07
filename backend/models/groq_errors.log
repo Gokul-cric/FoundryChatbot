@@ -1,0 +1,4 @@
+2025-03-27 15:46:57,142 - ERROR - Error initializing SQL Toolkit: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '123@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-27 15:47:11,825 - ERROR - Error initializing SQL Toolkit: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '123@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
