@@ -15,7 +15,7 @@ const ChatbotPage = () => {
       id: 1,
       type: "bot",
       content:
-        "Welcome to Karatos! I can help you analyze defects in your manufacturing process. What would you like to know?",
+        "Welcome to Metra! I can help you analyze defects in your manufacturing process. What would you like to know?",
       timestamp: new Date(),
     },
   ]);
@@ -384,7 +384,28 @@ useEffect(() => {
 }, [messages]);
 
 
+const handleComponentWiseToggle = async (isChecked) => {
+  const updatedParams = { ...analysisParams, isComponentWise: isChecked };
+  setAnalysisParams(updatedParams);
 
+  try {
+    await axios.post(
+      "http://127.0.0.1:5000/update_analysis_selection",
+      {
+        foundry: updatedParams.companyName,
+        defect: updatedParams.defectType,
+        group: updatedParams.groupName,
+        components: updatedParams.components,
+        isComponentWise: updatedParams.isComponentWise,
+      },
+      { headers: { "Content-Type": "application/json" } }
+    );
+    console.log("Component-wise flag updated:", updatedParams);
+  } catch (error) {
+    console.error("Error updating component-wise flag:", error);
+  }
+};
+ 
 
   const handleSelectionChange = async (key, value) => {
     const updatedParams = { ...analysisParams, [key]: value };
@@ -773,7 +794,7 @@ const speakWithElevenLabs = async (text) => {
                 <span></span>
                 <span></span>
               </div>
-              <div className="loading-text">Karatos is thinking...</div>
+              <div className="loading-text">Metra is thinking...</div>
             </div>
           )}
         {isListening && <div className="message bot-message">🎙️ Listening...
@@ -869,12 +890,8 @@ const speakWithElevenLabs = async (text) => {
                     type="checkbox"
                     checked={analysisParams.isComponentWise}
                     onChange={(e) =>
-                      setAnalysisParams({
-                        ...analysisParams,
-                        isComponentWise: e.target.checked,
-                      })
+                      handleComponentWiseToggle(e.target.checked)
                     }
-                    
                   />
                   Analyze Component-wise
                 </label>
@@ -884,7 +901,9 @@ const speakWithElevenLabs = async (text) => {
                 <div className="input-group">
                   <label>🧩 Select Components</label>
                   <select
-                    onChange={(e) => handleSelectionChange("components", e.target.value)}
+                    onChange={(e) =>
+                      handleSelectionChange("components", e.target.value)
+                    }
                   >
                     <option value="">Select Component</option>
                     {dropdownOptions.componentOptions.map((comp, idx) => (
@@ -895,6 +914,7 @@ const speakWithElevenLabs = async (text) => {
                   </select>
                 </div>
               )}
+
 
               <button className="run-analysis-btn" onClick={triggerRejectionAnalysis}>
                 <RefreshCw size={16} style={{ marginRight: "8px" }} />

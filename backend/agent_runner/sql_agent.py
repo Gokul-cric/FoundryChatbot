@@ -3,7 +3,7 @@ import os, re, logging
 from dotenv import load_dotenv
 from datetime import datetime
 from sqlalchemy import create_engine
-
+import pymysql
 from groq import Groq
 from langchain_groq import ChatGroq
 from langchain_community.utilities.sql_database import SQLDatabase
@@ -69,7 +69,7 @@ class SQLAgentWrapper:
             if not all([db_user, db_pass, db_name, db_host, db_port]):
                 raise ValueError("Missing DB credentials in .env file")
 
-            mysql_url = f"mysql+mysqlconnector://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}?auth_plugin=mysql_native_password"
+            mysql_url = f"mysql+pymysql://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}"#?auth_plugin=mysql_native_password
             print(f"[SQL Agent] Connecting to DB: {mysql_url}")
             engine = create_engine(mysql_url, connect_args={"connect_timeout": 5})
             db = SQLDatabase(engine)

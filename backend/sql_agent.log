@@ -1622,3 +1622,28 @@
 2025-04-07 17:29:17,746 - INFO -  * Restarting with stat
 2025-04-07 17:29:21,663 - WARNING -  * Debugger is active!
 2025-04-07 17:29:21,663 - INFO -  * Debugger PIN: 779-649-026
+2025-04-08 09:03:30,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8002
+2025-04-08 09:03:30,882 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 09:03:30,888 - INFO -  * Restarting with stat
+2025-04-08 09:03:35,330 - WARNING -  * Debugger is active!
+2025-04-08 09:03:35,338 - INFO -  * Debugger PIN: 779-649-026
+2025-04-08 10:07:07,843 - ERROR - SQL Agent Init Error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '123@mysql.railway.internal:3306' (11003 getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-04-08 10:07:20,888 - ERROR - SQL Agent Init Error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on 'mysql.railway.internal:3306' (11001 getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-04-08 10:07:34,045 - ERROR - SQL Agent Init Error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on 'mysql.railway.internal:3306' (11001 getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-04-08 10:08:44,369 - ERROR - SQL Agent Init Error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on 'mysql.railway.internal:3306' (11001 getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-04-08 10:10:04,470 - ERROR - SQL Agent Init Error: No module named 'MySQLdb'
+2025-04-08 10:12:36,953 - ERROR - SQL Agent Init Error: (MySQLdb.OperationalError) (2005, "Unknown server host '123@mysql.railway.internal' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-08 10:13:00,584 - ERROR - SQL Agent Init Error: (MySQLdb.OperationalError) (2005, "Unknown server host 'mysql.railway.internal' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-08 10:39:59,693 - ERROR - SQL Agent Init Error: (MySQLdb.OperationalError) (2005, "Unknown server host 'mysql.railway.internal' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-08 10:40:27,206 - ERROR - SQL Agent Init Error: (mysql.connector.errors.NotSupportedError) Authentication plugin 'caching_sha2_password' is not supported
+(Background on this error at: https://sqlalche.me/e/20/tw8g)
+2025-04-08 10:41:18,959 - ERROR - SQL Agent Init Error: Can't load plugin: sqlalchemy.dialects:pymysql.mysqlconnector
+2025-04-08 10:41:38,331 - ERROR - SQL Agent Init Error: Connection.__init__() got an unexpected keyword argument 'auth_plugin'
